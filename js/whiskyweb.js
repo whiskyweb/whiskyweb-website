@@ -6,26 +6,11 @@ var WhiskyWeb = (function() {
   });
 
   var active = null;
-
   var links = {};
+
   $('navigation a').each(function(i, link) {
-
-    var $link = $(link);
-    var target = $link.attr('href');
-
-    links[target] = $link;
-
-    $link.bind('click', function(e) {
-      e.stopPropagation();
-      e.preventDefault();
-      highlightNavAtPosition(positions[i]);
-      $(window.opera ? 'html' : 'html, body').animate({
-        scrollTop : parseInt(positions[i], 10)
-      }, 'fast');
-    });
-
+    links[$(link).attr('href')] = $(link);
   });
-
 
   function calculateNavSection(scrollTop) {
     for (var i = 1, len = positions.length; i < len; i++) {
