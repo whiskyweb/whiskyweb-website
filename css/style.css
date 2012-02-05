@@ -12,6 +12,9 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+    font-family: 'Oswald', 'League Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
     font-size: 100px;
     line-height: 100px;
     margin: 50px 0;
@@ -194,8 +197,8 @@ section > div {
     margin-left: 210px;
     text-transform: uppercase;
     width: 400px;
-    font-size: 130px;
-    letter-spacing: -5px;
+    font-size: 125px;
+    letter-spacing: -6px;
     line-height: 150px;
 }
 #early-tickets {
@@ -260,12 +263,10 @@ section > div {
 #accordion-wrapper {
     height: 400px;
 }
+
 .information-section .inner {
     -moz-transition: height 0.3s ease-out;
     -webkit-transition: height 0.3s ease-out;
-}
-
-.information-section .inner {
     border-top: 3px solid transparent;
     height: 0px;
     overflow: hidden;
