@@ -30,13 +30,17 @@ p {
     font-size: 12px;
 }
 
-#grid {
-    width: 1001px;
-    left: 50%;
-    margin-left: -500px;
+#grid-wrapper {
     position: fixed;
-    top: 0px;
-    bottom: 0px;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+
+#grid {
+    margin: 0px auto;
+    width: 1001px;
+    height: 100%;
 }
 #grid hr {
     height: 100%;
