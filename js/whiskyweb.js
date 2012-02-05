@@ -5,11 +5,34 @@ var WhiskyWeb = (function() {
     return $(id).position().top;
   });
 
+  var toScroll = $(window.opera ? 'html' : 'html, body');
   var active = null;
+  var ignoreScroll = false;
   var links = {};
 
   $('navigation a').each(function(i, link) {
-    links[$(link).attr('href')] = $(link);
+
+    var $link = $(link);
+    var target = $link.attr('href');
+    var $section = $(target);
+
+    links[target] = $link;
+
+    // Temporarily swap out the ID of the target so hashchange doesnt
+    // immediately jump
+    $link.bind('mousedown', function() {
+      ignoreScroll = true;
+      $section.attr('id', '');
+      document.location.hash = target;
+      highlightNavAtPosition(positions[i]);
+      toScroll.animate({
+        scrollTop : parseInt(positions[i], 10)
+      }, 'fast', function() {
+        $section.attr('id', target.replace(/^#/, ''));
+        ignoreScroll = false;
+      });
+    });
+
   });
 
   function calculateNavSection(scrollTop) {
@@ -32,7 +55,9 @@ var WhiskyWeb = (function() {
 
 
   function highlightCurrentNav() {
-    highlightNavAtPosition($(window).scrollTop() + 50);
+    if (!ignoreScroll) {
+      highlightNavAtPosition($(window).scrollTop() + 50);
+    }
   }
 
   setInterval(highlightCurrentNav, 200);
