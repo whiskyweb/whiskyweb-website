@@ -61,6 +61,7 @@ navigation {
 }
 
 navigation ul {
+    background: #502200;
     width: 1000px;
     overflow: auto;
     padding: 0;
@@ -277,7 +278,7 @@ section > div {
 }
 
 .information-section h2 {
-    text-indent: 20px;
+    padding-left: 20px;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -528,4 +529,107 @@ section > div {
     background: #c75500;
     color: white;
     padding: 5px 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    section {
+        width: 100%;
+        min-width: 0px;
+        margin: 0;
+    }
+
+    section > div {
+        padding: 0;
+        width: auto;
+    }
+    section > div:before {
+        background: none !important;
+    }
+
+    #grid { display: none; }
+
+    .home-section h1 {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        margin: 10px 0;
+        width: auto;
+    }
+
+    .home-section .date {
+        position: relative;
+        top: 0;
+        left: 5px;
+        text-align: left;
+    }
+
+    .home-section .content, .sponsors-section .content {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .information-section .inner {
+        padding-left: 5px;
+        height: auto;
+        border-top: 0 !important;
+    }
+
+    .information-section .item {
+        border-top: 0;
+        border-bottom: 0 !important;
+    }
+
+    #accordion-wrapper {
+        height: auto;
+    }
+
+    .speakers-section li {
+        text-align: center;
+        padding: 5px;
+        width:149px;
+    }
+
+    .speakers-section img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .sponsors-section ul {
+        width: auto;
+    }
+    .speakers-section #announce {
+        margin-top: 10px;
+    }
+    .sponsors-section li {
+        width: 139px;
+    }
+
+    #map-wrapper {
+        padding: 5px;
+    }
+
+    #map {
+        width: 100%;
+    }
+
+   .tickets-section #eventbrite {
+        width: auto;
+    }
+
+    #the-hub, #early-tickets, .home-section .speakers, .speakers-section p,
+    .speakers-section a, navigation {
+        display: none;
+    }
 }
