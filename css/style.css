@@ -181,6 +181,14 @@ section > div {
     background: #2a2028;
 }
 
+.sponsors-section li#sponsor-bruichladdich img {
+    margin-top: 40px;
+}
+
+.sponsors-section li#sponsor-webspecies img {
+    margin-top: 40px;
+}
+
 .sponsors-section > div {
     padding-bottom: 200px;
 }
@@ -362,6 +370,7 @@ section > div {
 
 .speakers-section p {
     line-height: 18px;
+    min-height: 150px;
 }
 
 .speakers-section a {
