@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abel|Oswald" />
     <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="dist/leaflet.ie.css" /><![endif]-->
   </head>
 
   <body>
@@ -107,11 +109,6 @@
         <div class="item">
           <h2>How to get to the Conference</h2>
           <div class="inner">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
-
-            <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
           </div>
 
         </div>
@@ -317,5 +314,17 @@
 
   <script src="./js/jquery-1.7.1.min.js"></script>
   <script src="./js/whiskyweb.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script>
+      var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
+          openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+
+      var map = new L.Map('map');
+      map.setView(new L.LatLng(55.9488, -3.195), 13).addLayer(openstreetmap);
+
+      var marker = new L.Marker(new L.LatLng(55.9488, -3.195));
+      map.addLayer(marker);
+  </script>
 
 </html>
