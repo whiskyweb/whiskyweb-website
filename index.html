@@ -110,20 +110,19 @@
         <div class="item">
           <h2>How to get to the Conference</h2>
           <div class="inner">
-            <div id="map"></div>
+            <div id="wheremap"></div>
             <script>
-                var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                    openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
-                    openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+              var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
+                  openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
 
-                var map = new L.Map('map');
-                map.setView(new L.LatLng(55.9488, -3.195), 13).addLayer(openstreetmap);
+              var wheremap = new L.Map('wheremap');
+              wheremap.setView(new L.LatLng(55.9488, -3.195), 14).addLayer(openstreetmap);
 
-                var marker = new L.Marker(new L.LatLng(55.9488, -3.195));
-                map.addLayer(marker);
+              var marker = new L.Marker(new L.LatLng(55.9488, -3.195));
+              wheremap.addLayer(marker);
             </script>
           </div>
-
         </div>
       </div>
     </section>
@@ -289,6 +288,17 @@
         <div id="map-wrapper">
 
           <div id="map"></div>
+          <script>
+            var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
+                openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+
+            var map = new L.Map('map');
+            map.setView(new L.LatLng(55.9488, -3.195), 14).addLayer(openstreetmap);
+
+            var marker = new L.Marker(new L.LatLng(55.9488, -3.195));
+            map.addLayer(marker);
+          </script>
 
           <h2>Follow on Twitter: <a href="">@Whiskyweb</a></h2>
           <h2>Email: <a href="">info@whiskyweb.com</a></h2>
