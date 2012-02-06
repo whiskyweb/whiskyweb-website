@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abel|Oswald" />
     <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="dist/leaflet.ie.css" /><![endif]-->
   </head>
 
   <body>
@@ -322,5 +324,17 @@
 
   <script src="./js/jquery-1.7.1.min.js"></script>
   <script src="./js/whiskyweb.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script>
+      var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
+          openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+
+      var map = new L.Map('map');
+      map.setView(new L.LatLng(55.9488, -3.195), 13).addLayer(openstreetmap);
+
+      var marker = new L.Marker(new L.LatLng(55.9488, -3.195));
+      map.addLayer(marker);
+  </script>
 
 </html>
