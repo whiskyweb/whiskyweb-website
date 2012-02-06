@@ -444,6 +444,10 @@ section > div {
     width: 180px;
 }
 
+.sponsors-section h2, .tickets-section h2 {
+    font-size: 26px;
+}
+
 #map {
     width: 565px;
     height: 350px;
@@ -461,8 +465,11 @@ section > div {
     margin: 0;
 }
 #map-wrapper h2 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #c65300;
+}
+#map-wrapper h2 a:hover {
+    text-decoration: none;
 }
 
 .car {
