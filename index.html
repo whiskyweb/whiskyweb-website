@@ -317,5 +317,27 @@
 
   <script src="./js/jquery-1.7.1.min.js"></script>
   <script src="./js/whiskyweb.js"></script>
+  <script src="./js/OpenLayers.js"></script>
+  <script>
+    map = new OpenLayers.Map("map", { controls: [] } );
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.addControl(new OpenLayers.Control.PanZoomBar());
+    map.addControl(new OpenLayers.Control.Navigation());
+
+    var lonLat = new OpenLayers.LonLat(-3.19512, 55.94880)
+          .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+          );
+
+    var zoom=13;
+
+    var markers = new OpenLayers.Layer.Markers("Markers");
+    var icon = new OpenLayers.Icon('img/marker.png');
+    markers.addMarker(new OpenLayers.Marker(lonLat), icon);
+
+    map.addLayer(markers);
+    map.setCenter (lonLat, zoom);
+  </script>
 
 </html>
