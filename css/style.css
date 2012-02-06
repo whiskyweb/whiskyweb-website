@@ -399,9 +399,13 @@ section > div {
     color: #655b63;
 }
 
-.sponsors-section li h2 {
-    text-decoration: underline;
+.sponsors-section li h2 a {
     color: #675b65;
+    text-decoration: none;
+}
+
+.sponsors-section li h2 a:hover {
+    text-decoration: underline;
 }
 
 
