@@ -164,6 +164,11 @@ section > div {
     cursor: pointer;
 }
 
+.information-section a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .speakers-section {
     background: #40312e;
 }
@@ -479,7 +484,7 @@ section > div {
     float:left;
 }
 
-.airport {
+.parking {
     float:right;
 }
 
