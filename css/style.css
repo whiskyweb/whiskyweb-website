@@ -451,6 +451,14 @@ section > div {
     font-size: 26px;
 }
 
+#wheremap {
+    width: 700px;
+    height: 250px;
+    float:left;
+    background: #333;
+    margin-right: 45px;
+}
+
 #map {
     width: 565px;
     height: 350px;
