@@ -60,12 +60,14 @@ navigation {
     top: 0px;
     left: 0px;
     right: 0px;
-    background: #502200;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
     z-index: 2000;
 }
 
 navigation ul {
-    background: #502200;
     width: 1000px;
     overflow: auto;
     padding: 0;
@@ -79,7 +81,10 @@ navigation li {
 
 navigation li a {
     display: block;
-    color: #a69382;
+    /* Fallback for web browsers that doesn't support RGBa */
+    color: rgb(255, 255, 255);
+    /* RGBa with 0.4 opacity */
+    color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
@@ -92,7 +97,10 @@ navigation li a {
 }
 
 navigation li a:hover, navigation li a.selected {
-    background: #441d00;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.4 opacity */
+    background: rgba(0, 0, 0, 0.4);
     color:white;
 }
 
