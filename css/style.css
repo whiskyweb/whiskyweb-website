@@ -401,11 +401,11 @@ section > div {
 
 .sponsors-section li h2 a {
     color: #675b65;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .sponsors-section li h2 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
