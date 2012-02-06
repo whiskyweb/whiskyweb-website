@@ -141,9 +141,9 @@ section > div {
    bottom:0;
    left:0;
    right:0;
-    background: url(/img/home-1.png) right 51px no-repeat,
-      url(/img/home-2.png) 601px bottom no-repeat,
-      url(/img/home-3.png) 201px bottom no-repeat;
+    background: url(/img/home-1.png) 800px 51px no-repeat,
+      url(/img/home-2.png) 600px bottom no-repeat,
+      url(/img/home-3.png) 200px bottom no-repeat;
    opacity:0.7;
 }
 
