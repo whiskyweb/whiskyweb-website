@@ -373,6 +373,7 @@ section > div {
 }
 
 .sponsors-section .content {
+    margin-left: 10px;
     width: 380px;
     float:left;
 }
