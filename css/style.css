@@ -112,7 +112,7 @@ section > div {
     width: 1000px;
     margin: 0px auto;
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
     overflow: auto;
     z-index: 1;
 }
@@ -144,6 +144,10 @@ section > div {
     background:#724329;
 }
 
+.information-section > div {
+    padding-bottom: 200px;
+}
+
 .information-section h1 {
     color: #482819;
 }
@@ -164,7 +168,11 @@ section > div {
     background: #2a2028;
 }
 
-.sponsors=section > div:before {
+.sponsors-section > div {
+    padding-bottom: 200px;
+}
+
+.sponsors-section > div:before {
    content:"";
    position:absolute;
    z-index: -1;
@@ -259,6 +267,7 @@ section > div {
     text-decoration: underline;
 }
 .home-section .speakers {
+    margin-top: 60px;
     margin-left: 15px;
     width: 180px;
     color: #572700;
