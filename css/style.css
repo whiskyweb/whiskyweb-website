@@ -112,7 +112,7 @@ section > div {
     width: 1000px;
     margin: 0px auto;
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
     overflow: auto;
     z-index: 1;
 }
@@ -144,6 +144,10 @@ section > div {
     background:#724329;
 }
 
+.information-section > div {
+    padding-bottom: 200px;
+}
+
 .information-section h1 {
     color: #482819;
 }
@@ -164,7 +168,11 @@ section > div {
     background: #2a2028;
 }
 
-.sponsors=section > div:before {
+.sponsors-section > div {
+    padding-bottom: 200px;
+}
+
+.sponsors-section > div:before {
    content:"";
    position:absolute;
    z-index: -1;
@@ -259,13 +267,16 @@ section > div {
     text-decoration: underline;
 }
 .home-section .speakers {
-    margin-left: 15px;
+    margin-top: 60px;
+    margin-left: 10px;
     width: 180px;
     color: #572700;
-
+    width: 180px;
 }
 
 #accordion-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
     height: 400px;
 }
 
@@ -357,13 +368,14 @@ section > div {
     list-style-type: none;
     width: 179px;
     height: 130px;
-    background: black;
+    background: #171217;
     float: left;
     margin: 0 1px 1px 0px;
     padding: 10px;
 }
 
 .sponsors-section .content {
+    margin-left: 10px;
     width: 380px;
     float:left;
 }
@@ -386,6 +398,8 @@ section > div {
 
 
 .tickets-section .content {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 380px;
     float:left;
 }
@@ -412,17 +426,28 @@ section > div {
     font-size:11px;
 }
 
+.tickets-section .content .first-day {
+    float: left;
+    width: 180px;
+}
+
+.tickets-section .content .second-day {
+    float: right;
+    width: 180px;
+}
+
 #map {
     width: 565px;
     height: 350px;
     float:left;
     background: #333;
-    margin-right: 35px;
+    margin-right: 45px;
 }
 
 #map-wrapper {
     clear:both;
     padding-top: 30px;
+    margin-right: 10px;
 }
 #map-wrapper h2 {
     margin: 0;
@@ -441,7 +466,7 @@ section > div {
 }
 
 .address {
-    width: 190px;
+    width: 180px;
 }
 
 .address p {
