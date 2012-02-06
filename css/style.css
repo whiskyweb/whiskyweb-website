@@ -461,13 +461,14 @@ section > div {
     height: 350px;
     float:left;
     background: #333;
-    margin-right: 45px;
+    margin-right: 35px;
 }
 
 #map-wrapper {
     clear:both;
     padding-top: 30px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 #map-wrapper h2 {
     margin: 0;
