@@ -396,6 +396,8 @@ section > div {
 
 
 .tickets-section .content {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 380px;
     float:left;
 }
@@ -422,17 +424,28 @@ section > div {
     font-size:11px;
 }
 
+.tickets-section .content .first-day {
+    float: left;
+    width: 180px;
+}
+
+.tickets-section .content .second-day {
+    float: right;
+    width: 180px;
+}
+
 #map {
     width: 565px;
     height: 350px;
     float:left;
     background: #333;
-    margin-right: 35px;
+    margin-right: 45px;
 }
 
 #map-wrapper {
     clear:both;
     padding-top: 30px;
+    margin-right: 10px;
 }
 #map-wrapper h2 {
     margin: 0;
@@ -451,7 +464,7 @@ section > div {
 }
 
 .address {
-    width: 190px;
+    width: 180px;
 }
 
 .address p {
