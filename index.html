@@ -332,8 +332,14 @@
 
       var map = new L.Map('map');
       map.setView(new L.LatLng(55.9488, -3.195), 13).addLayer(openstreetmap);
+      
+      var HubIcon = L.Icon.extend({
+            iconUrl: './img/marker.png',
+            iconSize: new L.Point(71, 73),
+            iconAnchor: new L.Point(36, 73),
+        });
 
-      var marker = new L.Marker(new L.LatLng(55.9488, -3.195));
+      var marker = new L.Marker(new L.LatLng(55.9488, -3.195), {icon: new HubIcon()});
       map.addLayer(marker);
   </script>
 
