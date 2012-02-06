@@ -189,7 +189,6 @@ section > div {
    left:0;
    right:0;
    background: url(../img/sponsors-1.png) left bottom no-repeat;
-   opacity:0.2;
 }
 
 .tickets-section {
@@ -607,8 +606,8 @@ footer div a:hover {
 }
 
 footer > a {
-    width: 70px;
-    height: 65px; 
+    width: 58px;
+    height: 52px; 
     background: url(../img/webspecies.png) no-repeat;
     display: inline-block;
     vertical-align: middle;
