@@ -215,6 +215,10 @@ section h1:before {
     margin-top: 40px;
 }
 
+.sponsors-section li#sponsor-ey img {
+    margin-top: 15px;
+}
+
 .sponsors-section li#sponsor-hub img {
     margin-top: 20px;
     margin-left: 40px;
