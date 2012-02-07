@@ -211,12 +211,15 @@ section h1:before {
    background: url(../img/logo-sponsors.png) 0 0 no-repeat;
 }
 
-.sponsors-section li#sponsor-bruichladdich img {
-    margin-top: 40px;
+.sponsors-section li > a {
+    display:block;
+    width:180px;
+    line-height: 110px;
+    text-align: center;
 }
 
-.sponsors-section li#sponsor-webspecies img {
-    margin-top: 40px;
+.sponsors-section li img {
+    vertical-align: middle;
 }
 
 .sponsors-section > div {
