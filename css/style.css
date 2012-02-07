@@ -234,6 +234,17 @@ section > div {
     letter-spacing: -6px;
     line-height: 150px;
 }
+.home-section h1:before {
+   content:"";
+   z-index: -1;
+   position:absolute;
+   top:175px;
+   bottom:0;
+   left:10px;
+   right:0;
+   background: url(../img/logo.png) 0 0 no-repeat;
+}
+
 #early-tickets {
     top: 425px;
     position: absolute;
