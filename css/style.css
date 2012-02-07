@@ -15,7 +15,7 @@ h1 {
     font-family: 'Oswald', 'League Gothic', sans-serif;
     font-weight: 400;
     letter-spacing: -1px;
-    font-size: 100px;
+    font-size: 90px;
     line-height: 100px;
     margin: 50px 0;
     color: black;
@@ -125,6 +125,20 @@ section > div {
     z-index: 1;
 }
 
+section h1 {  
+    margin-left: 110px;
+}
+
+section h1:before {
+   content:"";
+   z-index: -1;
+   position:absolute;
+   top:130px;
+   bottom:0;
+   left:10px;
+   right:0;
+}
+
 .home-section {
     background: #c75401;
 }
@@ -160,6 +174,10 @@ section > div {
     color: #482819;
 }
 
+.information-section h1:before {
+   background: url(../img/logo-information.png) 0 0 no-repeat;
+}
+
 .information-section h2 {
     cursor: pointer;
 }
@@ -177,8 +195,20 @@ section > div {
     color: #251b1a;
 }
 
+.speakers-section h1:before {
+   background: url(../img/logo-speakers.png) 0 0 no-repeat;
+}
+
 .sponsors-section {
-    background: #2a2028;
+   background: #2a2028;
+}
+
+.sponsors-section h1 {
+   color: #120E12;
+}
+
+.sponsors-section h1:before {
+   background: url(../img/logo-sponsors.png) 0 0 no-repeat;
 }
 
 .sponsors-section li#sponsor-bruichladdich img {
@@ -218,6 +248,14 @@ section > div {
    right:0;
    background: url(../img/tickets-1.png) right bottom no-repeat;
    opacity:0.2;
+}
+
+.tickets-section h1 {
+   color: #3E3C45;
+}
+
+.tickets-section h1:before {
+   background: url(../img/logo-tickets.png) 0 0 no-repeat;
 }
 
 .content h2 {
