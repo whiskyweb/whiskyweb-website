@@ -438,7 +438,8 @@ section h1:before {
     list-style-type: none;
     width: 179px;
     height: 130px;
-    background: #171217;
+    /*background: #171217;*/
+    background: #fff;
     float: left;
     margin: 0 1px 1px 0px;
     padding: 10px;
@@ -510,7 +511,9 @@ section h1:before {
     width: 180px;
 }
 
-.sponsors-section h2, .tickets-section h2 {
+.sponsors-section h2,
+.tickets-section h2,
+.speakers-section h2 {
     font-size: 26px;
 }
 
