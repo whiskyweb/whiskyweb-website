@@ -421,8 +421,8 @@ section h1:before {
 }
 
 .speakers-section p {
-    line-height: 18px;
-    min-height: 150px;
+    line-height: 25px;
+    /*min-height: 150px;*/
 }
 
 .speakers-section a {
