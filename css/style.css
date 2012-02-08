@@ -698,6 +698,14 @@ footer > a {
     section > div:before {
         background: none !important;
     }
+    
+    section h1 {
+        margin-left: 0px;
+    }
+    
+    section h1:before {
+        background: none !important;
+    }    
 
     #grid { display: none; }
 
