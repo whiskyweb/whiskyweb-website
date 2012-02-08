@@ -382,10 +382,16 @@ section h1:before {
     background-image: url(../img/noun_project_812.svg);
 }
 
-.information-section h2 {
-    padding-left: 20px;
-    margin: 0;
+.information-section .active h2 {
+    background: url(../img/collapse.png) no-repeat 10px center;
     margin-bottom: 10px;
+}
+
+.information-section h2 {
+    padding-left: 45px;
+    margin: 0;
+    margin-bottom: 5px;
+    background: url(../img/expand.png) no-repeat 10px center;
 }
 .information-section .item {
     border-top: 3px solid white;
