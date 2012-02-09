@@ -3,7 +3,7 @@ var WhiskyWeb = (function() {
   $('document').ready(function() {
     $('.slide-out-div').tabSlideOut({
       tabHandle: '.handle',
-      pathToTabImage: '/js/images/theteam.png',
+      pathToTabImage: './img/theteam.png',
       imageHeight: '134px',
       imageWidth: '35px',
       tabLocation: 'right',
