@@ -400,6 +400,7 @@ section h1:before {
     margin: 0;
     margin-bottom: 5px;
     background: url(../img/expand.png) no-repeat 10px center;
+    text-shadow: 1px 1px 1px #492919;
 }
 .information-section .item {
     border-top: 3px solid white;
