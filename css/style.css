@@ -417,6 +417,10 @@ section h1:before {
     padding-left: 220px;
 }
 
+.speakers-section p, .speakers-section h2 {
+    margin-left: 10px;
+}
+
 .speakers-section ul {
     overflow: auto;
     padding: 0;
@@ -444,6 +448,11 @@ section h1:before {
     text-align: center;
 }
 
+.speakers-section h2 {
+    width: 780px;
+    text-shadow: 1px 1px 1px #241b1a;
+}
+
 .speakers-section h3 {
     margin-bottom: 3px;
 }
@@ -457,6 +466,7 @@ section h1:before {
 
 .speakers-section p {
     line-height: 25px;
+    width: 580px;
     /*min-height: 150px;*/
 }
 
