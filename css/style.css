@@ -490,8 +490,7 @@ section h1:before {
     list-style-type: none;
     width: 179px;
     height: 130px;
-    /*background: #171217;*/
-    background: #fff;
+    background: #171217;
     float: left;
     margin: 0 1px 1px 0px;
     padding: 10px;
