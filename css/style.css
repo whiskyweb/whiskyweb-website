@@ -469,7 +469,7 @@ section h1:before {
     margin: 0;
     padding: 0;
     float: right;
-    width: 600px;
+    width: 599px;
 }
 
 .sponsors-section li {
@@ -481,6 +481,10 @@ section h1:before {
     float: left;
     margin: 0 1px 1px 0px;
     padding: 10px;
+}
+
+.sponsors-section li.third {
+    margin-right: 0px;
 }
 
 .sponsors-section .content {
