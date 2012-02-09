@@ -309,6 +309,14 @@ section h1:before {
     font-size: 56px;
 }
 
+.home-section a {
+    color: #421c00;
+}
+
+.home-section a:hover {
+    text-decoration: none;
+}
+
 .home-section .date {
     position: absolute;
     left: 460px;
