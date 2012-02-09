@@ -573,7 +573,7 @@ section h1:before {
     padding: 20px;
     width: 400px;
     background: #5a2c0b;
-    z-index: 3000;
+    z-index: 1700;
 }
 
 .slide-out-div {
