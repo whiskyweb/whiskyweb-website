@@ -367,19 +367,19 @@ section h1:before {
 
 .how-to-get-there {
     background-position: 65px 65px;
-    background-image: url(../img/noun_project_462.svg);
+    background-image: url(../img/info_icon4.png);
 }
 .schedule {
     background-position: 50px 65px;
-    background-image: url(../img/noun_project_404.svg);
+    background-image: url(../img/info_icon2.png);
 }
 .what-is {
     background-position: 50px 65px;
-    background-image: url(../img/logo-sponsors.png);
+    background-image: url(../img/info_icon1.png);
 }
 .whisky-guide {
     background-position: 50px 65px;
-    background-image: url(../img/noun_project_812.svg);
+    background-image: url(../img/info_icon3.png);
 }
 
 .information-section .active h2 {
