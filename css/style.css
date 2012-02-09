@@ -475,6 +475,10 @@ section h1:before {
     font-size: 12px;
 }
 
+.sponsors-section h2 {
+    text-shadow: 1px 1px 1px #171217;
+}
+
 .sponsors-section ul {
     margin: 0;
     padding: 0;
