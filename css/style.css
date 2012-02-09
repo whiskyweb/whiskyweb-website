@@ -569,10 +569,54 @@ section h1:before {
     width: 180px;
 }
 
-.sponsors-section h2,
-.tickets-section h2,
-.speakers-section h2 {
-    font-size: 26px;
+.slide-out-div {
+    padding: 20px;
+    width: 400px;
+    background: #5a2c0b;
+    z-index: 1700;
+}
+
+.slide-out-div {
+    font-size: 12px;
+}
+
+.slide-out-div a {
+    color: #806657;
+    text-decoration: underline;
+}
+
+.slide-out-div p {
+    font-size: 12px;
+}
+
+.slide-out-div h3 {
+    font-weight: bold;
+}
+
+.slide-out-div ul,
+.slide-out-div li {
+    margin: 0;
+    list-style-type: none;
+}
+
+.slide-out-div ul {
+    float: left;
+}
+
+.slide-out-div li {
+    margin: 10px 0;
+}
+
+.slide-out-div li img {
+    border: 1px solid #fff;
+    height: 50px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.slide-out-div li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #map {

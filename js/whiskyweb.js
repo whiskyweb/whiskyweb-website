@@ -1,5 +1,20 @@
 var WhiskyWeb = (function() {
 
+  $('document').ready(function() {
+    $('.slide-out-div').tabSlideOut({
+      tabHandle: '.handle',
+      pathToTabImage: '/js/images/theteam.png',
+      imageHeight: '134px',
+      imageWidth: '35px',
+      tabLocation: 'right',
+      speed: 300,
+      action: 'click',
+      topPos: '80px',
+      leftPos: '50px',
+      fixedPosition: false
+    });
+  });
+
   var sections = ['#home', '#information', '#speakers', '#sponsors', '#tickets'];
   var positions = $.map(sections, function(id) {
     return $(id).position().top;
@@ -69,5 +84,6 @@ var WhiskyWeb = (function() {
     }
     activeInf = $(this).parents('.item').addClass('active');
   });
+
 
 })();
