@@ -90,7 +90,8 @@ navigation li a {
     letter-spacing: 2px;
     padding: 20px 0 20px 10px;
     width: 189px;
-    border-right:1px solid #5a2c0b;
+    border-right: 1px solid rgb(90, 44, 11);
+    border-right: 1px solid rgba(255, 255, 255, .1);
     text-decoration: none;
     font-family: sans-serif;
     cursor: pointer;
@@ -105,7 +106,8 @@ navigation li a:hover, navigation li a.selected {
 }
 
 navigation li:first-child a {
-    border-left: 1px solid #5a2c0b;
+    border-left: 1px solid rgb(90, 44, 11);
+    border-left: 1px solid rgba(255, 255, 255, .1);
     width: 189px;
 }
 
