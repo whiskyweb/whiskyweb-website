@@ -647,6 +647,7 @@ section h1:before {
     padding-top: 30px;
     margin-right: 10px;
     margin-left: 10px;
+    overflow: auto;
 }
 #map-wrapper h2 {
     font-size: 26px;
@@ -672,7 +673,7 @@ section h1:before {
     width: 180px;
 }
 
-.address p {
+.tickets-section p {
     color: #9996a1;
 }
 
@@ -799,6 +800,50 @@ footer > a {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#team a {
+    text-decoration: none;
+    color: #CCC;
+    font-size: 12px;
+}
+
+#team {
+    clear: both;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+#team ul {
+    padding: 0px;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+#team li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+}
+
+#team li:last-child {
+    margin-right: 0;
+}
+
+#team li img {
+    display: block;
+    border:5px solid #444;
+    border-radius: 5px;
+    width: 128px;
+    height: 128px;
+    opacity: 0.5;
+    -moz-transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+}
+#team li:hover img {
+    opacity: 1;
+}
+
 
 @media screen and (max-width: 600px) {
 
