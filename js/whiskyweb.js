@@ -70,4 +70,12 @@ var WhiskyWeb = (function() {
     activeInf = $(this).parents('.item').addClass('active');
   });
 
+  // Recalculate positions once everything has been given a bit of time
+  // to be positioned correctly
+  setTimeout(function() {
+    positions = $.map(sections, function(id) {
+      return $(id).position().top;
+    });
+  }, 1000);
+
 })();
