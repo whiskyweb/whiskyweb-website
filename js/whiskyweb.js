@@ -10,7 +10,7 @@ var WhiskyWeb = (function() {
   var ignoreScroll = false;
   var links = {};
 
-  $('navigation a').each(function(i, link) {
+  $('nav a').each(function(i, link) {
 
     var $link = $(link);
     var target = $link.attr('href');
