@@ -117,6 +117,8 @@ section {
     margin: 0;
 }
 
+
+
 section > div {
     position: relative;
     width: 1000px;
@@ -199,6 +201,16 @@ section h1:before {
 
 .speakers-section h1:before {
    background: url(../img/logo-speakers.png) 0 0 no-repeat;
+}
+
+.speakers-section > div {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.speakers-section div#accommodation {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .sponsors-section {
@@ -648,6 +660,54 @@ section h1:before {
     margin-right: 35px;
 }
 
+div.hotel-map {
+    z-index: 0;
+    margin: 10px;
+    width: 555px;
+    height: 350px;
+    background: #333;
+    clear: both;
+}
+div.hotel-map img {    
+    background: none;
+    margin: 0px auto;
+    border-radius: 0;
+}
+
+div#carousel {
+    width: 600px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+div#carousel ul,
+div#carousel li {
+    width: 600px;
+}
+
+div#carousel h3 a {
+  font-size: 16px;
+}
+
+a.bx-prev {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 31px;
+  height: 31px;
+  text-indent: -99999px;
+  background: url(../img/icon_arrow_left.png) no-repeat 0 -31px;
+}
+
+a.bx-next {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 31px;
+  height: 31px;
+  text-indent: -99999px;
+  background: url(../img/icon_arrow_right.png) no-repeat 0 -31px;
+}
 
 #map-wrapper {
     clear:both;
