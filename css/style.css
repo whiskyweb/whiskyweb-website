@@ -931,6 +931,10 @@ footer > a {
         width:149px;
     }
 
+    .speakers-section h2, .speakers-section p {
+        width: auto;
+    }
+
     .speakers-section img {
         width: 130px;
         height: 130px;
