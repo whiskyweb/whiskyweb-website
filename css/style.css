@@ -55,7 +55,7 @@ p {
     margin: 0;
 }
 
-navigation {
+nav {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -67,19 +67,19 @@ navigation {
     z-index: 2000;
 }
 
-navigation ul {
+nav ul {
     width: 1001px;
     overflow: auto;
     padding: 0;
     margin: 0 auto;
 }
 
-navigation li {
+nav li {
     list-style-type: none;
     float:left;
 }
 
-navigation li a {
+nav li a {
     display: block;
     /* Fallback for web browsers that doesn't support RGBa */
     color: rgb(255, 255, 255);
@@ -97,7 +97,7 @@ navigation li a {
     cursor: pointer;
 }
 
-navigation li a:hover, navigation li a.selected {
+nav li a:hover, nav li a.selected {
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(0, 0, 0);
     /* RGBa with 0.4 opacity */
@@ -105,7 +105,7 @@ navigation li a:hover, navigation li a.selected {
     color:white;
 }
 
-navigation li:first-child a {
+nav li:first-child a {
     border-left: 1px solid rgb(90, 44, 11);
     border-left: 1px solid rgba(255, 255, 255, .1);
     width: 189px;
@@ -959,7 +959,7 @@ footer > a {
     }
 
     #the-hub, #early-tickets, .home-section .speakers,
-    .speakers-section a, navigation {
+    .speakers-section a, nav {
         display: none;
     }
 }
