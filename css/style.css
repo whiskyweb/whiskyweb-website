@@ -542,6 +542,11 @@ section h1:before {
     width: 560px;
     background: black;
 }
+
+.tickets-section #eventbrite iframe {
+    width: 100%;
+    height: 200px;
+}
 .tickets-section .content h5 {
     margin: 10px 0 10px 0;
     font-weight: normal;
