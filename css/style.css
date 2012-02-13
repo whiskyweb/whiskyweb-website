@@ -171,7 +171,7 @@ section h1:before {
 }
 
 .information-section > div {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .information-section h1 {
@@ -211,6 +211,13 @@ section h1:before {
 .speakers-section div#accommodation {
     margin-top: 0;
     padding-top: 0;
+}
+
+div#accommodation h2 {
+    margin: 0;
+    padding: 0;
+    background: none;
+    text-shadow: none;
 }
 
 .sponsors-section {
@@ -371,7 +378,7 @@ section h1:before {
 #accordion-wrapper {
     margin-left: 10px;
     margin-right: 10px;
-    height: 400px;
+    height: 550px;
 }
 
 .information-section .inner {
@@ -675,23 +682,18 @@ div.hotel-map img {
 }
 
 div#carousel {
-    width: 600px;
-    clear: both;
-    margin-bottom: 20px;
+  background: #482819;
+  width: 650px;
 }
 
 div#carousel ul,
 div#carousel li {
-    width: 600px;
-}
-
-div#carousel h3 a {
-  font-size: 16px;
+    width: 650px;
 }
 
 a.bx-prev {
   position: absolute;
-  top: 18px;
+  top: 0;
   left: 0;
   width: 31px;
   height: 31px;
@@ -701,7 +703,7 @@ a.bx-prev {
 
 a.bx-next {
   position: absolute;
-  top: 18px;
+  top: 0;
   right: 0;
   width: 31px;
   height: 31px;
