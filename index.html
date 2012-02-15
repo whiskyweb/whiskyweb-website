@@ -455,7 +455,10 @@
           map.addLayer(marker);
         });
 
-        $('div#carousel ul').bxSlider();
+        $('div#carousel ul').bxSlider({
+            'prevText': "&laquo; Previous",
+            'nextText': "Next &raquo;" 
+        });
 
       });
   </script>

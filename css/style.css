@@ -208,7 +208,8 @@ section h1:before {
     padding-bottom: 0;
 }
 
-.speakers-section div#accommodation {
+div#accommodation {
+    margin: 0 10px;
     margin-top: 0;
     padding-top: 0;
 }
@@ -684,6 +685,8 @@ div.hotel-map img {
 div#carousel {
   background: #482819;
   width: 650px;
+  padding-bottom: 20px;
+  border: 1px solid #fff;
 }
 
 div#carousel ul,
@@ -693,22 +696,14 @@ div#carousel li {
 
 a.bx-prev {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 31px;
-  height: 31px;
-  text-indent: -99999px;
-  background: url(../img/icon_arrow_left.png) no-repeat 0 -31px;
+  top: 10px;
+  left: 10px;
 }
 
 a.bx-next {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 31px;
-  height: 31px;
-  text-indent: -99999px;
-  background: url(../img/icon_arrow_right.png) no-repeat 0 -31px;
+  top: 10px;
+  right: 10px;
 }
 
 #map-wrapper {
