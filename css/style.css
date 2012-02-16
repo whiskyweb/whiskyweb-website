@@ -208,10 +208,17 @@ section h1:before {
     padding-bottom: 0;
 }
 
-div#accommodation {
-    margin: 0 10px;
-    margin-top: 0;
-    padding-top: 0;
+.information-section .inner-tall { 
+    -webkit-transition: height 0.3s ease-out;
+    border-top: 3px solid transparent;
+    height: 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.information-section .active .inner-tall { 
+    border-top: 3px solid white;
+    height: 700px;
 }
 
 div#accommodation h2 {
@@ -379,7 +386,7 @@ div#accommodation h2 {
 #accordion-wrapper {
     margin-left: 10px;
     margin-right: 10px;
-    height: 550px;
+    /*height: 550px;*/
 }
 
 .information-section .inner {
