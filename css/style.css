@@ -483,7 +483,11 @@ section h1:before {
     text-transform: none;
     color: #675b65;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.speakers-section p {
+    font-size: 11px;
 }
 
 .speakers-section a {
