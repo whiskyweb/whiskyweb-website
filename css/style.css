@@ -417,13 +417,17 @@ section h1:before {
     padding-left: 220px;
 }
 
-.speakers-section p, .speakers-section h2 {
-    margin-left: 10px;
-}
-
 .speakers-section ul {
     overflow: auto;
     padding: 0;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+.speakers-section ul li:first-child {
+    border-left: 1px solid #372d2c;
+}
+.speakers-section ul li:last-child {
+    border-right: none;
 }
 .speakers-section li {
     list-style-type: none;
@@ -432,6 +436,12 @@ section h1:before {
     background: #251b1a;
     border-right: 1px solid #372d2c;
     padding: 15px;
+    margin-top: 1px;
+    height: 500px;
+}
+.speakers-section #keynotes li {
+    width: 469px;
+    height: 230px;
 }
 
 .speakers-section img {
@@ -443,36 +453,52 @@ section h1:before {
     margin: 0px auto;
 }
 
+.speakers-section #keynotes img {
+    float: left;
+    margin-right: 15px;
+}
+
 .speakers-section #announce {
     margin-top: 50px;
     text-align: center;
 }
 
 .speakers-section h2 {
-    width: 780px;
     text-shadow: 1px 1px 1px #241b1a;
 }
 
 .speakers-section h3 {
     margin-bottom: 3px;
+    font-size: 1.15em;
+}
+
+.speakers-section #keynotes h3 {
+    margin-top: 0px;
+    font-size: 1.25em;
 }
 
 .speakers-section h4 {
     text-transform: none;
     color: #675b65;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .speakers-section p {
-    line-height: 25px;
-    width: 580px;
-    /*min-height: 150px;*/
+    font-size: 11px;
+}
+
+.speakers-section .read-more {
+    display: none;
 }
 
 .speakers-section a {
+    padding-left: 20px;
     color: #8e7976;
     font-size: 12px;
+    background: url(../img/twitter-icon.png) no-repeat;
+    height: 18px;
+    display: block;
 }
 
 .sponsors-section .content h2 {
@@ -929,10 +955,6 @@ footer > a {
         text-align: center;
         padding: 5px;
         width:149px;
-    }
-
-    .speakers-section h2, .speakers-section p {
-        width: auto;
     }
 
     .speakers-section img {
