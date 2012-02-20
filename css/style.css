@@ -420,8 +420,7 @@ section h1:before {
 .speakers-section ul {
     overflow: auto;
     padding: 0;
-    margin-top: 1px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 .speakers-section ul li:first-child {
     border-left: 1px solid #372d2c;
