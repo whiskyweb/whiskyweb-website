@@ -491,8 +491,12 @@ section h1:before {
 }
 
 .speakers-section a {
+    padding-left: 20px;
     color: #8e7976;
     font-size: 12px;
+    background: url(../img/twitter-icon.png) no-repeat;
+    height: 18px;
+    display: block;
 }
 
 .sponsors-section .content h2 {
