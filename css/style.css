@@ -379,10 +379,45 @@ section h1:before {
     background-position: 40px 65px;
     background-image: url(../img/info_icon4.png);
 }
+
 .schedule {
-    background-position: 50px 65px;
-    background-image: url(../img/info_icon2.png);
+    font-size: 10px;
+    background: #40312e;
 }
+
+.schedule td ,
+.schedule th {
+    padding: 3px 5px;
+}
+
+.schedule thead th {
+
+    text-transform: uppercase;
+    border-bottom: 3px solid #fff;
+}
+
+.schedule tbody th {
+    background: #372D2C;
+    border-bottom: 1px solid #fff;
+}
+
+.schedule tr.wide td {
+    text-align: center;
+}
+
+.schedule tbody td {
+    border-bottom: 1px solid #fff;
+}
+
+.schedule tbody tr.last td ,
+.schedule tbody tr.last th {
+    border: none;
+}
+
+.schedule tfoot td {
+    border-top: 3px solid #fff;
+}
+
 .what-is {
     background-position: 50px 65px;
     background-image: url(../img/info_icon1.png);
