@@ -427,6 +427,12 @@ section h1:before {
     margin-top: 1px;
     margin-bottom: 0px;
 }
+.speakers-section ul li:first-child {
+    border-left: 1px solid #372d2c;
+}
+.speakers-section ul li:last-child {
+    border-right: none;
+}
 .speakers-section li {
     list-style-type: none;
     width: 169px;
