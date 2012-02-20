@@ -432,6 +432,7 @@ section h1:before {
     background: #251b1a;
     border-right: 1px solid #372d2c;
     padding: 15px;
+    margin-top: 1px;
 }
 
 .speakers-section img {
@@ -462,12 +463,6 @@ section h1:before {
     color: #675b65;
     margin: 0;
     font-size: 12px;
-}
-
-.speakers-section p {
-    line-height: 25px;
-    width: 580px;
-    /*min-height: 150px;*/
 }
 
 .speakers-section a {
