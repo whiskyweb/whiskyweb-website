@@ -417,10 +417,6 @@ section h1:before {
     padding-left: 220px;
 }
 
-.speakers-section p, .speakers-section h2 {
-    margin-left: 10px;
-}
-
 .speakers-section ul {
     overflow: auto;
     padding: 0;
@@ -953,10 +949,6 @@ footer > a {
         text-align: center;
         padding: 5px;
         width:149px;
-    }
-
-    .speakers-section h2, .speakers-section p {
-        width: auto;
     }
 
     .speakers-section img {
