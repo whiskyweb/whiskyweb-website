@@ -437,9 +437,11 @@ section h1:before {
     border-right: 1px solid #372d2c;
     padding: 15px;
     margin-top: 1px;
+    height: 500px;
 }
 .speakers-section #keynotes li {
     width: 469px;
+    height: 230px;
 }
 
 .speakers-section img {
@@ -484,6 +486,10 @@ section h1:before {
 
 .speakers-section p {
     font-size: 11px;
+}
+
+.speakers-section .read-more {
+    display: none;
 }
 
 .speakers-section a {
