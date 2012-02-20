@@ -471,10 +471,12 @@ section h1:before {
 
 .speakers-section h3 {
     margin-bottom: 3px;
+    font-size: 1.15em;
 }
 
 .speakers-section #keynotes h3 {
     margin-top: 0px;
+    font-size: 1.25em;
 }
 
 .speakers-section h4 {
