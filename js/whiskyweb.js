@@ -87,6 +87,7 @@ var WhiskyWeb = (function() {
     
     var HubIcon = L.Icon.extend({
          iconUrl: './img/marker.png',
+         shadowUrl: null,
          iconSize: new L.Point(71, 73),
          iconAnchor: new L.Point(36, 73)
     });
@@ -111,7 +112,9 @@ var WhiskyWeb = (function() {
     
         var MapIcon = L.Icon.extend({
               iconUrl: './img/mapmarker.png',
-              iconSize: new L.Point(30, 30)
+              shadowUrl: null,
+              iconSize: new L.Point(32, 32),
+              iconAnchor: new L.Point(16, 32)
         });
     
         var marker = new L.Marker(new L.LatLng(lat, lon), {icon: new MapIcon()});
