@@ -104,7 +104,6 @@ var WhiskyWeb = (function() {
         var lon = $(this).find('span.lon').text();
         $(this).find('span.lon').remove();
         var mapId = $(this).attr('id');
-        console.log($(this));
         var mapNumber = mapId.charAt(mapId.length -1);
     
         var map = new L.Map('hotel-map-' + mapNumber);

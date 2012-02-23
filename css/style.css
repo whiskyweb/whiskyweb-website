@@ -377,7 +377,7 @@ section h1:before {
 
 .information-section .active .inner-tall {
     border-top: 3px solid white;
-    height: 600px;
+    height: 435px;
 }
 .information-section .inner-tall {
     -webkit-transition: height 0.3s ease-out;
@@ -923,13 +923,27 @@ footer > a {
     opacity: 1;
 }
 
+#accommodation .slider li h3 {
+	font-size: 1.8em;
+}
+#accommodation .slider li {
+	width: 891px;
+	height: 380px;
+}
+
 #accommodation div.hotel-map {
     z-index: 0;
+	float: left;
     margin: 10px;
     width: 555px;
     height: 350px;
     background: #333;
-    clear: both;
+    /*clear: both;*/
+}
+
+#accommodation div.hotel-info {
+	float: left;
+	width: 300px;
 }
 
 #accommodation div.hotel-map img {    
