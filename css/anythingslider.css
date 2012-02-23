@@ -119,13 +119,13 @@ div.anythingSlider .arrow a {
 }
 
 div.anythingSlider .arrow.back {
-	background: url(./images/slider-arrow-left.png) no-repeat;
+	background: url(../img/slider-arrow-left.png) no-repeat;
 	background-position: 0 -31px;
 }
 
 div.anythingSlider .arrow.forward {
 	right: -14px;
-	background: url(./images/slider-arrow-right.png) no-repeat;
+	background: url(../img/slider-arrow-right.png) no-repeat;
 	background-position: 0 -31px;
 }
 

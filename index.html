@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Whisky Web conference - April 13th, 14th 2012 in Edinburgh, UK</title>
     <link rel="stylesheet" href="./css/style.css" />
-	<link rel="stylesheet" href="./css/anythingslider.css" />
+    <link rel="stylesheet" href="./css/anythingslider.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abel|Oswald" />
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" href="css/leaflet.css" />
@@ -582,66 +582,8 @@ Thijs is also boardmember of the PHPBenelux user group and organized thePHPBenel
   <script src="./js/jquery-1.7.1.min.js"></script>
   <script src="./js/jquery.tabSlideOut.v1.3.js"></script>
   <script src="./js/anythingslider.js"></script>
-  <script src="./js/whiskyweb.js"></script>
   <script src="js/leaflet.js"></script>
-  <script>
-	  
-   var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-       openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
-       openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
-
-   var map = new L.Map('map');
-   map.setView(new L.LatLng(55.9488, -3.195), 14).addLayer(openstreetmap);
-
-   var HubIcon = L.Icon.extend({
-           iconUrl: './img/marker.png',
-           iconSize: new L.Point(71, 73),
-           iconAnchor: new L.Point(36, 73)
-   });
-
-   var marker = new L.Marker(new L.LatLng(55.9488, -3.195), {icon: new HubIcon()});
-   map.addLayer(marker);
-      
-	jQuery(document).ready(function($) {
-
-		
-		$('div.hotel-map').each(function() {
-			var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-			var openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap';
-			var openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
-		
-			var lat = $(this).find('span.lat').text();
-			$(this).find('span.lat').remove();
-			var lon = $(this).find('span.lon').text();
-			$(this).find('span.lon').remove();
-			var mapId = $(this).attr('id');
-			console.log($(this));
-			var mapNumber = mapId.charAt(mapId.length -1);
-		
-			var map = new L.Map('hotel-map-' + mapNumber);
-			map.setView(new L.LatLng(lat, lon), 15).addLayer(openstreetmap);
-		
-			var MapIcon = L.Icon.extend({
-				  iconUrl: './img/mapmarker.png'
-			});
-		
-			var marker = new L.Marker(new L.LatLng(lat, lon), {icon: new MapIcon()});
-			map.addLayer(marker);
-		});
-		
-		$('#accommodation').find('.slider').anythingSlider({
-			 buildNavigation: false,
-			 resizeContents: false,
-			 showMultiple: 1,
-			 changeBy: 1,
-			 autoPlay: false,
-			 buildStartStop: false
-  		}); 
-		
-	});
-     
-
-  </script>
+  <script src="./js/whiskyweb.js"></script>
 
   <script type="text/javascript">
     var _gaq = _gaq || [];
