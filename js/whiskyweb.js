@@ -68,6 +68,11 @@ var WhiskyWeb = (function() {
       activeInf.removeClass('active');
     }
     activeInf = $(this).parents('.item').addClass('active');
+    setTimeout(function() {
+        positions = $.map(sections, function(id) {
+            return $(id).position().top;
+          });
+    }, 500);
   });
 
   // Recalculate positions once everything has been given a bit of time
