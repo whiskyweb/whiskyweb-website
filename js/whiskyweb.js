@@ -110,7 +110,8 @@ var WhiskyWeb = (function() {
         map.setView(new L.LatLng(lat, lon), 15).addLayer(openstreetmap);
     
         var MapIcon = L.Icon.extend({
-              iconUrl: './img/mapmarker.png'
+              iconUrl: './img/mapmarker.png',
+              iconSize: new L.Point(30, 30)
         });
     
         var marker = new L.Marker(new L.LatLng(lat, lon), {icon: new MapIcon()});
