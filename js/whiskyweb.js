@@ -77,5 +77,54 @@ var WhiskyWeb = (function() {
       return $(id).position().top;
     });
   }, 1000);
-
+    
+    var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+     openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
+     openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+    
+    var map = new L.Map('map');
+    map.setView(new L.LatLng(55.9488, -3.195), 14).addLayer(openstreetmap);
+    
+    var HubIcon = L.Icon.extend({
+         iconUrl: './img/marker.png',
+         iconSize: new L.Point(71, 73),
+         iconAnchor: new L.Point(36, 73)
+    });
+    
+    var marker = new L.Marker(new L.LatLng(55.9488, -3.195), {icon: new HubIcon()});
+    map.addLayer(marker);
+    
+    $('div.hotel-map').each(function() {
+        var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+        var openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap';
+        var openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+    
+        var lat = $(this).find('span.lat').text();
+        $(this).find('span.lat').remove();
+        var lon = $(this).find('span.lon').text();
+        $(this).find('span.lon').remove();
+        var mapId = $(this).attr('id');
+        var mapNumber = mapId.charAt(mapId.length -1);
+    
+        var map = new L.Map('hotel-map-' + mapNumber);
+        map.setView(new L.LatLng(lat, lon), 15).addLayer(openstreetmap);
+    
+        var MapIcon = L.Icon.extend({
+              iconUrl: './img/mapmarker.png',
+              iconSize: new L.Point(30, 30)
+        });
+    
+        var marker = new L.Marker(new L.LatLng(lat, lon), {icon: new MapIcon()});
+        map.addLayer(marker);
+    });
+    
+    $('#accommodation').find('.slider').anythingSlider({
+         buildNavigation: false,
+         resizeContents: false,
+         showMultiple: 1,
+         changeBy: 1,
+         autoPlay: false,
+         buildStartStop: false
+    });
+    
 })();

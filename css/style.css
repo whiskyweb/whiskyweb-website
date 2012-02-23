@@ -169,7 +169,7 @@ section h1:before {
 }
 
 .information-section > div {
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 .information-section h1 {
@@ -359,7 +359,7 @@ section h1:before {
 #accordion-wrapper {
     margin-left: 10px;
     margin-right: 10px;
-    height: 400px;
+    /*height: 400px;*/
 }
 
 .information-section .inner {
@@ -373,6 +373,18 @@ section h1:before {
 .information-section .active .inner {
     border-top: 3px solid white;
     height: 250px;
+}
+
+.information-section .active .inner-tall {
+    border-top: 3px solid white;
+    height: 435px;
+}
+.information-section .inner-tall {
+    -webkit-transition: height 0.3s ease-out;
+    border-top: 3px solid transparent;
+    height: 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .how-to-get-there {
@@ -909,6 +921,35 @@ footer > a {
 }
 #team li:hover img {
     opacity: 1;
+}
+
+#accommodation .slider li h3 {
+	font-size: 1.8em;
+}
+#accommodation .slider li {
+	width: 891px;
+	height: 380px;
+}
+
+#accommodation div.hotel-map {
+    z-index: 0;
+	float: left;
+    margin: 10px;
+    width: 555px;
+    height: 350px;
+    background: #333;
+    /*clear: both;*/
+}
+
+#accommodation div.hotel-info {
+	float: left;
+	width: 300px;
+}
+
+#accommodation div.hotel-map img {    
+    background: none;
+    margin: 0px auto;
+    border-radius: 0;
 }
 
 
