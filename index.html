@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Whisky Web conference - April 13th, 14th 2012 in Edinburgh, UK</title>
     <link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/anythingslider.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Abel|Oswald" />
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" href="css/leaflet.css" />
@@ -135,7 +136,68 @@
               <a href="http://www.thehub-edinburgh.com/">www.thehub-edinburgh.com</a></p>
           </div>
         </div>
-       </div>
+      
+        <div class="item">
+          <h2>Accommodation</h2>
+          <div class="inner-tall" id="accommodation">
+              <p>While Whisky Web are in no affiliated with the establishments shown below, we thought it might be useful to our delegates and speakeres to provide some details of local hotels that are a short distance from the main conference venue.</p>
+             <div class="slider-container">
+                 <ul class="slider">
+                     <li>
+                        <h3><a href="http://www.ibishotel.com/gb/hotel-2039-ibis-edinburgh-centre/index.shtml">Ibis Hotel</a></h3>
+                        <p>From &pound;45 pp/pn</p>
+                        <p>~5 minute walk to/from The Hub</p>
+                        <p>6 Hunter Square, Off Royal Mile, Edinburgh, EH1 1QW</p>
+                        <div id="hotel-map-1" class="hotel-map"><span class="lat">55.949616</span><span class="lon">-3.188095</span></div>
+                     </li>
+                     <li>
+                        <h3><a href="http://www.easyhotel.com/hotels/edinburgh.html">Easy Hotel</a></h3>
+                        <p>From &pound;47 pp/pn</p>
+                        <p>~20 minute walk to/from The Hub</p>
+                        <p>125A Princes Street, Edinburgh, EH2 4AD</p>
+                        <div id="hotel-map-2" class="hotel-map"><span class="lat">55.951087</span><span class="lon">-3.204138</span></div>
+                     </li>
+                     <li>
+                        <h3><a href="http://www.thistle.com/en/hotels/united_kingdom/edinburgh/the_king_james/index.html">King James Hotel</a></h3>
+                        <p>From &pound;95 pp/pn</p>
+                        <p>~15 minute walk to/from The Hub</p>
+                        <p>107 Leith Street, Edinburgh, EH1 3SW</p>
+                        <div id="hotel-map-3" class="hotel-map"><span class="lat">55.954478</span><span class="lon">-3.188003</span></div>
+                     </li>
+                     <li>
+                        <h3><a href="http://www.apexhotels.co.uk/hotels/edinburgh-city/find-us/">Edinburgh Apex Hotel</a></h3>
+                        <p>From &pound;89 pp/pn</p>
+                        <p>~5 minute walk to/from The Hub</p>
+                        <p>Apex City Hotel, 61 Grassm2HJarket, Edinburgh, EH1 2HJ</p>
+                        <div id="hotel-map-4" class="hotel-map"><span class="lat">55.947521</span><span class="lon">-3.194756</span></div>
+                     </li>
+                     <li>
+                        <h3><a href="http://www.bankhoteledinburgh.co.uk/">Bank Hotel</a></h3>
+                        <p>From &pound;45 pp/pn</p>
+                        <p>~10 minute walk to/from The Hub</p>
+                        <p>1 South Bridge, Edinburgh, Scotland, EH1 1LL</p>
+                        <div id="hotel-map-5" class="hotel-map"><span class="lat">55.948902</span><span class="lon">-3.186696</span></div>
+                     </li>
+                     <li>
+                        <h3><a href="http://www.accorhotels.com/gb/hotel-3271-novotel-edinburgh-centre/index.shtml">Novotel</a></h3>
+                        <p>From &pound;55 pp/pn</p>
+                        <p>~15 minute walk to/from The Hub</p>
+                        <p>80 Lauriston Place, Edinburgh, EH3 9DE</p>
+                        <div id="hotel-map-6" class="hotel-map"><span class="lat">55.945091</span><span class="lon">-3.199757</span></div>
+                     </li>
+                     <li>
+                        <h3><a href="http://edinburghhotels.jurysinns.com/">Jurys Inn</a></h3>
+                        <p>From &pound;80 pp/pn</p>
+                        <p>~10 minute walk to/from The Hub</p>
+                        <p>43 Jeffrey Street, Edinburgh, EH1 1DH</p>
+                        <div id="hotel-map-7" class="hotel-map"><span class="lat">55.951151</span><span class="lon">-3.185435</span></div>
+                     </li>
+                 </ul>
+             </div>
+          </div>
+        </div>
+
+      </div>
      </div>
     </section>
 
@@ -283,7 +345,7 @@ Thijs is also boardmember of the PHPBenelux user group and organized thePHPBenel
       <table class="schedule" width="100%" cellpadding="0" cellspacing="0">
         <thead>
           <tr>
-            <th>&nbsp;</td>
+            <th>&nbsp;</th>
             <th>Track 1</th>
             <th>Track 2</th>
           </tr>
@@ -519,24 +581,66 @@ Thijs is also boardmember of the PHPBenelux user group and organized thePHPBenel
 
   <script src="./js/jquery-1.7.1.min.js"></script>
   <script src="./js/jquery.tabSlideOut.v1.3.js"></script>
+  <script src="./js/anythingslider.js"></script>
   <script src="./js/whiskyweb.js"></script>
   <script src="js/leaflet.js"></script>
   <script>
-      var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-          openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
-          openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+	  
+   var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+       openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap',
+       openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
 
-      var map = new L.Map('map');
-      map.setView(new L.LatLng(55.9488, -3.195), 14).addLayer(openstreetmap);
+   var map = new L.Map('map');
+   map.setView(new L.LatLng(55.9488, -3.195), 14).addLayer(openstreetmap);
 
-      var HubIcon = L.Icon.extend({
-            iconUrl: './img/marker.png',
-            iconSize: new L.Point(71, 73),
-            iconAnchor: new L.Point(36, 73),
-        });
+   var HubIcon = L.Icon.extend({
+           iconUrl: './img/marker.png',
+           iconSize: new L.Point(71, 73),
+           iconAnchor: new L.Point(36, 73)
+   });
 
-      var marker = new L.Marker(new L.LatLng(55.9488, -3.195), {icon: new HubIcon()});
-      map.addLayer(marker);
+   var marker = new L.Marker(new L.LatLng(55.9488, -3.195), {icon: new HubIcon()});
+   map.addLayer(marker);
+      
+	jQuery(document).ready(function($) {
+
+		
+		$('div.hotel-map').each(function() {
+			var openstreetmapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+			var openstreetmapAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 openstreetmap';
+			var openstreetmap = new L.TileLayer(openstreetmapUrl, {maxZoom: 18, attribution: openstreetmapAttribution});
+		
+			var lat = $(this).find('span.lat').text();
+			$(this).find('span.lat').remove();
+			var lon = $(this).find('span.lon').text();
+			$(this).find('span.lon').remove();
+			var mapId = $(this).attr('id');
+			console.log($(this));
+			var mapNumber = mapId.charAt(mapId.length -1);
+		
+			var map = new L.Map('hotel-map-' + mapNumber);
+			map.setView(new L.LatLng(lat, lon), 15).addLayer(openstreetmap);
+		
+			var MapIcon = L.Icon.extend({
+				  iconUrl: './img/mapmarker.png'
+			});
+		
+			var marker = new L.Marker(new L.LatLng(lat, lon), {icon: new MapIcon()});
+			map.addLayer(marker);
+		});
+		
+		$('#accommodation').find('.slider').anythingSlider({
+			 buildNavigation: false,
+			 resizeContents: false,
+			 showMultiple: 1,
+			 changeBy: 1,
+			 autoPlay: false,
+			 buildStartStop: false
+  		}); 
+		
+	});
+     
+
   </script>
 
   <script type="text/javascript">
