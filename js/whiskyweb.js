@@ -107,11 +107,12 @@ var WhiskyWeb = (function() {
         var mapNumber = mapId.charAt(mapId.length -1);
     
         var map = new L.Map('hotel-map-' + mapNumber);
-        map.setView(new L.LatLng(lat, lon), 15).addLayer(openstreetmap);
+        map.setView(new L.LatLng(lat, lon), 14).addLayer(openstreetmap);
     
         var MapIcon = L.Icon.extend({
               iconUrl: './img/mapmarker.png',
-              iconSize: new L.Point(30, 30)
+              iconSize: new L.Point(30, 30),
+              iconAnchor: new L.Point(15, 25)
         });
     
         var marker = new L.Marker(new L.LatLng(lat, lon), {icon: new MapIcon()});
