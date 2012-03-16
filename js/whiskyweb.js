@@ -63,6 +63,7 @@ var WhiskyWeb = (function() {
   setInterval(highlightCurrentNav, 200);
 
   var activeInf = $('#information').find('.active');
+  activeInf.not(':first').removeClass('active');
   $('#information h2').bind('mousedown', function() {
     if (activeInf) {
       activeInf.removeClass('active');
