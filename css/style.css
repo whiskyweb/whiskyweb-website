@@ -25,7 +25,7 @@ h2 {
     font-size: 28px;
 }
 
-p {
+p, dl {
     line-height: 18px;
     font-size: 12px;
 }
@@ -348,8 +348,7 @@ section h1:before {
 }
 .home-section .speakers h2 {
     color: #572700;
-    font-weight: normal;
-    text-decoration: underline;
+    font-weight: bold;
 }
 .home-section .speakers {
     margin-top: 60px;
@@ -947,6 +946,25 @@ footer > a {
 #accommodation div.hotel-info {
 	float: left;
 	width: 300px;
+}
+
+#accommodation div.hotel-info dl, #accommodation div.hotel-info dt, #accommodation div.hotel-info dd {
+	list-style: none;
+	margin: 0;
+}
+
+#accommodation div.hotel-info dt {
+	list-style: none;
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
+#accommodation div.hotel-info dt:after {
+	content: ': ';
+}
+
+#accommodation div.hotel-info dd {
+	margin-bottom: 1em;
 }
 
 #accommodation div.hotel-map img {    
