@@ -25,7 +25,7 @@ h2 {
     font-size: 28px;
 }
 
-p {
+p, dl {
     line-height: 18px;
     font-size: 12px;
 }
@@ -301,13 +301,16 @@ section h1:before {
     text-align:center;
 }
 
-#early-tickets h3, #early-tickets h2 {
+#early-tickets a {
+    text-decoration:none;
+}
+#early-tickets * {
     margin: 0;
 }
 #early-tickets h3 {
     letter-spacing: -1px;
 }
-#early-tickets h2 {
+#early-tickets strong {
     font-size: 56px;
 }
 
@@ -345,8 +348,7 @@ section h1:before {
 }
 .home-section .speakers h2 {
     color: #572700;
-    font-weight: normal;
-    text-decoration: underline;
+    font-weight: bold;
 }
 .home-section .speakers {
     margin-top: 60px;
@@ -589,7 +591,7 @@ section h1:before {
     color: #655b63;
 }
 
-.sponsors-section li h2 a {
+.sponsors-section a {
     color: #675b65;
     text-decoration: underline;
 }
@@ -944,6 +946,25 @@ footer > a {
 #accommodation div.hotel-info {
 	float: left;
 	width: 300px;
+}
+
+#accommodation div.hotel-info dl, #accommodation div.hotel-info dt, #accommodation div.hotel-info dd {
+	list-style: none;
+	margin: 0;
+}
+
+#accommodation div.hotel-info dt {
+	list-style: none;
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
+#accommodation div.hotel-info dt:after {
+	content: ': ';
+}
+
+#accommodation div.hotel-info dd {
+	margin-bottom: 1em;
 }
 
 #accommodation div.hotel-map img {    
