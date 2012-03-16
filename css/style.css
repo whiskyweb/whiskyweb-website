@@ -592,7 +592,7 @@ section h1:before {
     color: #655b63;
 }
 
-.sponsors-section li h2 a {
+.sponsors-section a {
     color: #675b65;
     text-decoration: underline;
 }
