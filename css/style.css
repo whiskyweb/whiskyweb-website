@@ -301,13 +301,16 @@ section h1:before {
     text-align:center;
 }
 
-#early-tickets h3, #early-tickets h2 {
+#early-tickets a {
+    text-decoration:none;
+}
+#early-tickets * {
     margin: 0;
 }
 #early-tickets h3 {
     letter-spacing: -1px;
 }
-#early-tickets h2 {
+#early-tickets strong {
     font-size: 56px;
 }
 
