@@ -437,9 +437,15 @@ section h1:before {
     background-position: 50px 65px;
     background-image: url(../img/info_icon1.png);
 }
-.whisky-guide {
+.whisky-guide,
+.whiskymarch {
     background-position: 50px 65px;
     background-image: url(../img/info_icon3.png);
+}
+
+.whiskymarch li {
+  line-height: 18px;
+  font-size: 12px;
 }
 
 .information-section .active h2 {
