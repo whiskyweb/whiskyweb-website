@@ -511,6 +511,11 @@ section h1:before {
     text-align: center;
 }
 
+.speakers-section #hackathon {
+    margin-top: 50px;
+    text-align: center;
+}
+
 .speakers-section h2 {
     text-shadow: 1px 1px 1px #241b1a;
 }
@@ -541,6 +546,10 @@ section h1:before {
 }
 
 .speakers-section a {
+    color: #8e7976;
+}
+
+.speakers-section li a {
     padding-left: 20px;
     color: #8e7976;
     font-size: 12px;
@@ -967,7 +976,7 @@ footer > a {
 	margin-bottom: 1em;
 }
 
-#accommodation div.hotel-map img {    
+#accommodation div.hotel-map img {
     background: none;
     margin: 0px auto;
     border-radius: 0;
