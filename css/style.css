@@ -389,7 +389,8 @@ section h1:before {
     background-repeat: no-repeat;
 }
 
-.how-to-get-there {
+.how-to-get-there,
+.hackathon-info {
     background-position: 40px 65px;
     background-image: url(../img/info_icon4.png);
 }
