@@ -4,6 +4,7 @@ body {
 
 h1, h2, h3, h4 {
 	font-family: 'Oswald', 'League Gothic', sans-serif;
+	text-transform: uppercase;
 }
 
 dd {
