@@ -34,6 +34,7 @@ dd {
 
 .session {
 	font-weight: bold;
+	font-size: 1.4rem;
 	display: block;
 }
 
@@ -43,5 +44,18 @@ dd {
 }
 
 dd {
-	margin-bottom: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+dt {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 1.5em;
+	font-size: 1.4rem;
+}
+
+.social li {
+	list-style: none;
+	margin-left: -40px;
 }
