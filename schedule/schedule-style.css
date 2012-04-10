@@ -1,0 +1,61 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Oswald', 'League Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+dd {
+	margin-left: 0px;
+}
+
+.both {
+	width: 90%;
+	border-left: 10px solid #C75401;
+	padding-left: 1em;
+	background-color: #FFE1CC;
+}
+
+.track1 {
+	width: 90%;
+	border-left: 10px solid #003DF5;
+	padding-left: 1em;
+	background-color: #CCD9FF;
+}
+
+.track2 {
+	width: 90%;
+	border-left: 10px solid #FF3300;
+	padding-left: 1em;
+	background-color: #FFD6CC;
+}
+
+.session {
+	font-weight: bold;
+	font-size: 1.4rem;
+	display: block;
+}
+
+.presenter {
+	display: block;
+	font-style: italic;
+}
+
+dd {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+dt {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 1.5em;
+	font-size: 1.4rem;
+}
+
+.social li {
+	list-style: none;
+	margin-left: -40px;
+}
