@@ -389,7 +389,8 @@ section h1:before {
     background-repeat: no-repeat;
 }
 
-.how-to-get-there {
+.how-to-get-there,
+.hackathon-info {
     background-position: 40px 65px;
     background-image: url(../img/info_icon4.png);
 }
@@ -436,9 +437,15 @@ section h1:before {
     background-position: 50px 65px;
     background-image: url(../img/info_icon1.png);
 }
-.whisky-guide {
+.whisky-guide,
+.whiskymarch {
     background-position: 50px 65px;
     background-image: url(../img/info_icon3.png);
+}
+
+.whiskymarch li {
+  line-height: 18px;
+  font-size: 12px;
 }
 
 .information-section .active h2 {
@@ -511,6 +518,11 @@ section h1:before {
     text-align: center;
 }
 
+.speakers-section #hackathon {
+    margin-top: 50px;
+    text-align: center;
+}
+
 .speakers-section h2 {
     text-shadow: 1px 1px 1px #241b1a;
 }
@@ -541,6 +553,10 @@ section h1:before {
 }
 
 .speakers-section a {
+    color: #8e7976;
+}
+
+.speakers-section li a {
     padding-left: 20px;
     color: #8e7976;
     font-size: 12px;
@@ -967,7 +983,7 @@ footer > a {
 	margin-bottom: 1em;
 }
 
-#accommodation div.hotel-map img {    
+#accommodation div.hotel-map img {
     background: none;
     margin: 0px auto;
     border-radius: 0;
