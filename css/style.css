@@ -163,6 +163,9 @@ section h1:before {
    opacity:0.7;
 }
 
+.mobile-schedule {
+	display: none;
+}
 
 .information-section {
     background:#724329;
@@ -1046,6 +1049,14 @@ footer > a {
         margin: 10px 0;
         text-align: center;
     }
+
+	.mobile-schedule {
+		display: inline;
+	}
+
+	.mobile-schedule a {
+		color: white;
+	}
 
     .information-section .inner {
         padding-left: 5px;
