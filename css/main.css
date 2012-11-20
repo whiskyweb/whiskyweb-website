@@ -15,11 +15,11 @@ body {
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('../fonts/BebasNeue.eot');
-    src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
-         /*url('../fonts/BebasNeue.woff') format('woff'),*/
-         url('../fonts/BebasNeue.ttf') format('truetype'),
-         url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
+    src: url('BebasNeue.eot');
+    src: url('BebasNeue.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue.woff') format('woff'),
+         url('BebasNeue.ttf') format('truetype'),
+         url('BebasNeue.svg#BebasNeue') format('svg');
     font-weight: normal;
     font-style: normal;
 }
