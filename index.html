@@ -15,6 +15,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/h5bp.css">
         <link rel="stylesheet" href="css/main.css">
+        
+        <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -33,19 +37,39 @@
                     <img src="img/ww2012.png" alt="Whisky Web 2012">
                     <span>Whisky Web 2012</span>
                 </a>
-                <a href="#" title="">
+                <a href="#" title="" id="about-dialog-trigger">
                     <img src="img/about.png" alt="About The Event">
                     <span>About The Event</span>
                 </a>
+                <a href="https://twitter.com/whiskyweb" title="View WhiskWeb on Twitter" class="twitter" target="_blank">
+                    <img src="img/about.png" alt="View WhiskWeb on Twitter">
+                    <img class="twitter-image" src="img/twitter.png" alt="View WhiskWeb on Twitter">
+                </a>
+            </div>
+            
+            <div id="dialog-content">
+                <h2>About Whisky Web II</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>        
+        
         <script src="js/backstretch.js"></script>
         <script type="text/javascript">
             jQuery(document).ready(function($) {
-                $.backstretch("/img/background.jpg");
+                
+                $.backstretch("img/background.jpg");
+                $("#about-dialog-trigger").fancybox({
+                    maxWidth: 700,
+                    afterLoad: function() {
+                        this.content = $('#dialog-content').html();
+                    }
+                });
             });
         </script>
 
