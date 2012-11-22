@@ -67,8 +67,8 @@ body {
 
 
 
-#bottom-buttons a:first-child {
-	margin-right: 50px;
+#bottom-buttons a:last-child {
+	margin-right: 0px;
 }
 
 #bottom-buttons span {
@@ -98,15 +98,20 @@ body {
 	width: 131px;
 	height: 130px;
 	position: relative;
+	margin-right: 50px;
 }
 
 #bottom-buttons {
 	position: absolute;
 	bottom: 25px;
-	left: 33%;
+	left: 27%;
 	position: fixed;
-	width: 400px;
+	width: 550px;
 	height: 135px;
+}
+
+#bottom-buttons .twitter img.twitter-image {
+	margin-top: -127px;
 }
 
 /*div { border: 1px solid red; }*/
