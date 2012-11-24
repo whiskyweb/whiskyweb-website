@@ -18,9 +18,9 @@ body {
 #wrapper {
 	width: 400px;
 	margin: 0 auto;
-	height: 100%;
+	height: auto;
 	min-height: 100%;
-	position: relative;
+    position: relative;
 }
 
 #whisky-glass {
@@ -102,12 +102,12 @@ body {
 }
 
 #bottom-buttons {
-	position: absolute;
-	bottom: 25px;
-	left: 27%;
 	position: fixed;
+	bottom: 0;
 	width: 550px;
 	height: 135px;
+    margin: 0 auto;
+    margin-left: -90px;
 }
 
 #bottom-buttons .twitter img.twitter-image {
