@@ -117,3 +117,21 @@ body {
 #dialog-content {
 	display: none;
 }
+
+.fancybox-inner h2 {
+	font-family: 'BebasNeue';
+	font-weight: normal;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px auto;
+	text-shadow: 1px 1px 1px #f5f7f1;
+}
+
+.fancybox-inner p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	letter-spacing: 0.7px;
+	text-shadow: 1px 1px 1px #f5f7f1;
+
+}
+
