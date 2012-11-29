@@ -103,11 +103,12 @@ body {
 
 #bottom-buttons {
 	position: fixed;
-	bottom: 0;
+	bottom: 10px;
 	width: 550px;
 	height: 135px;
     margin: 0 auto;
-    margin-left: -90px;
+    margin-left: 0px;
+   /* margin-left: -90px;*/
 }
 
 #bottom-buttons .twitter img.twitter-image {
