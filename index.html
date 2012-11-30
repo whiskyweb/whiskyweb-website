@@ -15,10 +15,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/h5bp.css">
         <link rel="stylesheet" href="css/main.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
-
-
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -33,36 +31,31 @@
             <div id="whiskyweb-sub-text">APR 12-13, 2013</div>
 
             <div id="bottom-buttons" class="clearfix">
-                <a href="/2012" title="">
-                    <img src="img/ww2012.png" alt="Whisky Web 2012">
+                <a href="/2012" title="" id="button-2012" class="button">
                     <span>Whisky Web 2012</span>
                 </a>
-                <!--<a href="#" title="" id="about-dialog-trigger">
-                    <img src="img/about.png" alt="About The Event">
+                <a href="#" title="" id="button-about" class="button">
                     <span>About The Event</span>
-                </a>-->
-                <a href="https://twitter.com/whiskyweb" title="View WhiskWeb on Twitter" class="twitter" target="_blank">
-                    <img src="img/twitter.png" alt="View WhiskWeb on Twitter">
+                </a>
+                <a href="https://twitter.com/whiskyweb" title="View WhiskWeb on Twitter" class="button" target="_blank" id="button-twitter">
+                    <span>Follow On Twitter</span>
                 </a>
             </div>
 
             <div id="dialog-content">
-                <h2>About Whisky Web II</h2>
-                <p></p>
-            </div>
-
         </div>
+
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
         <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-
         <script src="js/backstretch.js"></script>
         <script type="text/javascript">
             jQuery(document).ready(function($) {
 
                 $.backstretch("img/background.jpg");
-                $("#about-dialog-trigger").fancybox({
+                $("button-about").fancybox({
+                    scrolling: true,
                     maxWidth: 700,
                     afterLoad: function() {
                         this.content = $('#dialog-content').html();

@@ -1,5 +1,5 @@
 body {
-	position: relative;
+    position: relative;
     background-color: #4a5833;
 }
 
@@ -16,123 +16,126 @@ body {
 
 
 #wrapper {
-	width: 400px;
-	margin: 0 auto;
-	height: auto;
-	min-height: 100%;
+    width: 600px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 100%;
     position: relative;
 }
 
 #whisky-glass {
-	top: 25px;
-	left: 25%;
-	width: 183px;
-	height: 200px;
-	display: block;
-	position: absolute;
-	margin: -2% auto 0 auto;
+    margin-top: 30px;
 }
 
 #whisky-glass img {
-	display: block;
-	width: 183px;
-	height: 200px;
+    padding-left: 70px;
+    margin: 0 auto;
+    display: block;
+    width: 183px;
+    height: 200px;
+    padding-bottom: 20px;
+    /*border-bottom: 1px solid #b6b54b;*/
 }
 
 #whiskyweb-text {
     text-indent: -9999px;
     white-space: nowrap;
-	position: absolute;
-	top: 260px;
-	left: -12px;
-	font-size: 4.9em;
-	color: #b6b54b;
-	width: 346px;
-	height: 54px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 4.9em;
+    color: #b6b54b;
+    width: 346px;
+    height: 54px;
     background: url("../img/maintext.png") no-repeat;
 }
 
 #whiskyweb-sub-text {
     text-indent: -9999px;
     white-space: nowrap;
-	position: absolute;
-	top: 325px;
-	left: 72px;
-	font-size: 3.1em;
-	color: #a5a79c;
-	width: 179px;
-    height: 31px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 3.1em;
+    color: #a5a79c;
+    width: 179px;
     background: url("../img/subtext.png") no-repeat;
 }
 
-
-
-#bottom-buttons a:last-child {
-	margin-right: 0px;
-}
-
-#bottom-buttons span {
-	position: absolute;
-	top: 35px;
-	left: 15px;
-	color: #dee7cc;
-	font-size: 1.5em;
-	font-weight: normal;
-	display: block;
-	width: 100px;
-	letter-spacing: 1px;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: BebasNeue;
-}
-
-#bottom-buttons img {
-	display: block;
-	width: 131px;
-	height: 130px;
+#bottom-buttons {
+    padding-top: 50px;
+    width: 600px;
+    height: 135px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #bottom-buttons a {
-	display: block;
-	float: left;
-	width: 131px;
-	height: 130px;
-	position: relative;
-	margin-right: 50px;
-}
-
-#bottom-buttons {
-	position: fixed;
-	bottom: 10px;
-	width: 550px;
-	height: 135px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-family: BebasNeue;
+    color: #dee7cc;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding: 0 20px;
     margin: 0 auto;
-    margin-left: 0px;
-   /* margin-left: -90px;*/
+    width: 131px;
+    height: 130px;
 }
 
-#bottom-buttons .twitter img.twitter-image {
-	margin-top: -127px;
+#bottom-buttons a:first-child {
+    padding: 0;
+    padding-right: 20px;
+}
+
+#bottom-buttons a:last-child {
+    padding: 0;
+    padding-left: 20px;
+}
+
+#button-2012 {
+    background: url("../img/ww2012.png") no-repeat;
+    background-size: 131px 130px;
+}
+
+#button-about {
+    background: url("../img/about.png") no-repeat;
+    background-size: 131px 130px;
+    background-position: top center;
+}
+
+#button-twitter {
+    background: url("../img/twitter.png") no-repeat;
+    background-size: 131px 130px;
+    background-position: top right;
+}
+
+.button span {
+    display: inline-block;
+    margin-top: 35px;
 }
 
 #dialog-content {
-	display: none;
+    clear: both;
+    display: none;
 }
 
-.fancybox-inner h2 {
-	font-family: 'BebasNeue';
-	font-weight: normal;
-	font-size: 36px;
-	text-align: center;
-	margin: 5px auto;
-	text-shadow: 1px 1px 1px #f5f7f1;
-}
+/*.fancybox-inner h2 {*/
+	/*font-family: 'BebasNeue';*/
+	/*font-weight: normal;*/
+	/*font-size: 36px;*/
+	/*text-align: center;*/
+	/*margin: 5px auto;*/
+	/*text-shadow: 1px 1px 1px #f5f7f1;*/
+/*}*/
 
-.fancybox-inner p {
-	font-family: 'Open Sans';
-	font-size: 14px;
-	letter-spacing: 0.7px;
-	text-shadow: 1px 1px 1px #f5f7f1;
+/*.fancybox-inner p {*/
+	/*font-family: 'Open Sans';*/
+	/*font-size: 14px;*/
+	/*letter-spacing: 0.7px;*/
+	/*text-shadow: 1px 1px 1px #f5f7f1;*/
 
-}
+/*}*/
+
 
