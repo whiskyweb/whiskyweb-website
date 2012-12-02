@@ -15,10 +15,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/h5bp.css">
         <link rel="stylesheet" href="css/main.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
-
-
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -33,36 +31,48 @@
             <div id="whiskyweb-sub-text">APR 12-13, 2013</div>
 
             <div id="bottom-buttons" class="clearfix">
-                <a href="/2012" title="">
-                    <img src="img/ww2012.png" alt="Whisky Web 2012">
+                <a href="/2012" title="" id="button-2012" class="button">
                     <span>Whisky Web 2012</span>
                 </a>
-                <!--<a href="#" title="" id="about-dialog-trigger">
-                    <img src="img/about.png" alt="About The Event">
+                <a href="#" title="" id="button-about" class="button">
                     <span>About The Event</span>
-                </a>-->
-                <a href="https://twitter.com/whiskyweb" title="View WhiskWeb on Twitter" class="twitter" target="_blank">
-                    <img src="img/twitter.png" alt="View WhiskWeb on Twitter">
+                </a>
+                <a href="https://twitter.com/whiskyweb" title="View WhiskWeb on Twitter" class="button" target="_blank" id="button-twitter">
+                    <span>Follow On Twitter</span>
                 </a>
             </div>
 
             <div id="dialog-content">
-                <h2>About Whisky Web II</h2>
-                <p></p>
+                <p>
+                    At the start of this year, a small group of developers were inspired to take it upon themselves to organise the first Whisky Web conference.
+                    With experience attending conferences but certainly not organising them, they worked tirelessly to a tight schedule to
+                    host, by all accounts a successful, unique and entertaining event for all attendees.
+                </p>
+                <p>
+                    Well that was this year, and work is already underway to organise a bigger and better event for 2013.  It will feature a castle in the
+                    picturesque heart of Scotland; there will almost certainly be inflatable sharks to oversee things; a heady mix of inspirational first-class
+                    speakers and activities to keep the mind and body energised and much, much more.
+                </p>
+                <p>
+                    A full site will be coming in January, with more detailed information about all aspects of the conference, including prices.
+                    To keep up with the latest information from the team, follow <a href="http://twitter.com/whiskyweb">@WhiskyWeb</a> on twitter or drop in on the #WhiskyWeb IRC channel on Freenode.
+                    Alternatively, you can drop us an email at <a href="mailto:info@whiskyweb.co.uk">info@whiskyweb.co.uk</a> if you have any specific questions, or if you
+                    want to talk to us about sponsorship opportunities.  From the entire team, we look forward to seeing you next year!
+                </p>
             </div>
-
         </div>
+
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
         <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-
         <script src="js/backstretch.js"></script>
         <script type="text/javascript">
             jQuery(document).ready(function($) {
 
                 $.backstretch("img/background.jpg");
-                $("#about-dialog-trigger").fancybox({
+                $("#button-about").fancybox({
+                    scrolling: true,
                     maxWidth: 700,
                     afterLoad: function() {
                         this.content = $('#dialog-content').html();
