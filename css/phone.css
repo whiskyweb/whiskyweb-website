@@ -63,13 +63,13 @@ h3.extradark {
 
 #top-nav ul {
     min-height: 80px;
-    background: url(../img/shark.png) no-repeat center center;
+    background-image: none;
 	list-style-type: none;
 	margin: 0 auto;
 }
 
 #top-nav li {
-    display: inline
+    display: block;
 }
 
 #top-nav li.gutter_right {
