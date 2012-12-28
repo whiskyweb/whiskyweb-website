@@ -167,7 +167,7 @@ div.triangle {
     display: block;
     width: 200px;
     margin: 0 auto;
-    margin-top: 220px;
+    margin-top: 60px;
     text-transform: uppercase;
     padding: 17px;
     background-color: #6b4612;
@@ -293,14 +293,16 @@ div#previous-sponsors p {
     margin: 0 auto;
 }
 
-div#previous-sponsors ul {
+div#previous-sponsors ul,
+div#sponsors ul {
     text-align: left;
     display: block;
     font-size: 1.4em;
     list-style-type: none;
 }
 
-div#previous-sponsors ul li {
+div#previous-sponsors ul li,
+div#sponsors ul li {
     display: inline-block;
     margin-left: 30px;
 }
@@ -362,4 +364,43 @@ footer ul li:last-child {
     border-radius: 5px;
     width: 128px;
     height: 128px;
+}
+
+form#contact_form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+form#contact_form ul {
+    list-style-type: none;
+}
+
+form#contact_form li.formfield label {
+    margin-top: 10px;
+	color: #a55b00;
+    font-size: 1.4em;    
+    font-weight: bold;
+}
+
+form#contact_form li.formfield input {
+    width: 330px;
+	border: 3px solid #a55b00;
+}
+
+form#contact_form li.formfield textarea {
+	border: 3px solid #a55b00;
+    width: 330px;
+    resize: both;
+}
+
+form#contact_form li.formfield select {
+    width: 350px;
+}
+
+form#contact_form li.formbuttons input {
+	background: #a55b00;
+	border: 1px solid #a55b00;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
 }

@@ -9,25 +9,25 @@ h1, h2, h3 {
 }
 
 h1 {
-    margin: 30px auto;
+    margin: 10px auto;
     text-align: center;
-	font-size: 4.0em;
+	font-size: 2.0em;
 	color: #e2961c;
 	text-shadow: 1px 3px 2px #a55b00;
 	filter: dropshadow(color=#a55b00, offx=1, offy=0);
 }
 
 h2 {
-	margin: 12px auto;
+	margin: 4px auto;
     text-align: center;
-	font-size: 3.0em;
+	font-size: 1.2em;
 	color: #b06712;
 }
 
 h3 {
     margin: 6px auto;
 	text-align: center;
-	font-size: 2.4em;
+	font-size: 1em;
 }
 
 h3.light {
@@ -57,7 +57,7 @@ h3.extradark {
 
 
 #top-nav {
-	background: url(../img/grey_bg.png) repeat;
+	background: none;
     text-align: center;
 }
 
@@ -73,18 +73,18 @@ h3.extradark {
 }
 
 #top-nav li.gutter_right {
-    padding-right: 30px;
+    padding-right: 0;
 }
 
 #top-nav li.gutter_left {
-    padding-left: 30px;
+    padding-left: 0;
 }
 
 #top-nav li a {
-	color: #fff;
+	color: #e2961c;
 	font-size: 1.4em;
 	display: inline-block;
-    padding: 20px 25px;
+    padding: 5px;
 	font-family: Oswald, Arial;
 }
 
@@ -99,7 +99,7 @@ body#page-sponsors #top-nav li#sponsors-link a,
 body#page-tickets #top-nav li#tickets-link a,
 body#page-team #top-nav li#team-link a,
 body#page-contact #top-nav li#contact-link a {
-	color: #e2961c;
+	color: #4a4a4a;
 }
 
 body#page-sponsors #top-nav li#sponsors-link a:hover {
@@ -130,13 +130,13 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 
 .large-text {
 	line-height: 1.3em;
-	font-size: 1.8em;
+	font-size: 1em;
 }
 
 #intro-text {
-    padding-top: 20px;
-    margin-top: 20px;
-    background: url(../img/hexes_grey.png) no-repeat top center;
+    padding-top: 0;
+    margin-top: 0;
+    background: none;
 }
 
 #get-involved,
@@ -146,9 +146,9 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 }
 
 #get-involved p {
-    margin-top: 20px;
-    padding-top: 20px;
-    background: url(../img/hexes_yellow.png) no-repeat top center;
+    margin-top: 0;
+    padding-top: 0;
+    background: none;
 }
 
 div.triangle {
@@ -159,21 +159,21 @@ div.triangle {
 }
 
 #sponsors {
-	height: 380px;
-	background: url(../img/castle.png) no-repeat center;
+	height: 160px;
+	background: none;
 }
 
 #sponsors .become-a-sponsor {
     display: block;
     width: 200px;
     margin: 0 auto;
-    margin-top: 220px;
+    margin-top: 10px;
     text-transform: uppercase;
-    padding: 17px;
+    padding: 7px;
     background-color: #6b4612;
     border-radius: 5px;
     color: white;
-    font-size: 1.4em;
+    font-size: 1em;
     opacity: 0.8;
 }
 
@@ -219,7 +219,7 @@ div.triangle {
 	color: #a55b00;
     background: #fff;
     border: 1px solid #e2961c;
-    padding: 10px;
+    padding: 3px;
 }
 
 #current-sponsors table tbody tr td:first-child {
@@ -257,7 +257,7 @@ p.tier-qty {
 
 p {
     line-height: 1.1em;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 p.left {
@@ -285,7 +285,7 @@ div.badge-logo {
 }
 
 div#previous-sponsors {
-    height: 400px;
+    height: 750px;
 }
 
 div#previous-sponsors p {
@@ -313,6 +313,7 @@ span.copyright {
 
 footer {
     clear: both;
+    font-size: 0.8em;
     padding: 10px;
 }
 
@@ -328,7 +329,7 @@ footer ul li {
 
 footer ul li a {
 	color: #fffff4;
-	font-size: 1.2em;
+	font-size: 0.8em;
 	font-family: "Open Sans", Arial;
 }
 
