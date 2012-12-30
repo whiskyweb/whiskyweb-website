@@ -13,8 +13,8 @@ h1 {
     text-align: center;
 	font-size: 2.0em;
 	color: #e2961c;
-	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=0);
+    text-shadow: none;
+    filter:;
 }
 
 h2 {
@@ -32,21 +32,21 @@ h3 {
 
 h3.light {
 	color: #fffff4;
-	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+    text-shadow: none;
+    filter:;
 }
 
 h3.dark {
 	color: #4a4a4a;
-	text-shadow: 2px 3px 1px #C3C3C3;
-	filter: dropshadow(color=#C3C3C3, offx=2, offy=3);
+    text-shadow: none;
+    filter:;
 }
 
 h3.extradark {
     padding-top: 10px;
     color: #fffff4;
-    text-shadow: 2px 3px 1px #333;
-    filter: dropshadow(color=#333, offx=2, offy=3);
+    text-shadow: none;
+    filter:;
 }
 
 a,
@@ -62,6 +62,9 @@ a:active {
 	min-height: 100%;
 }
 
+#top-nav select {
+    display: inline-block;
+}
 
 #top-nav {
 	background: none;
@@ -69,6 +72,7 @@ a:active {
 }
 
 #top-nav ul {
+    display: none;
     min-height: 80px;
     background-image: none;
 	list-style-type: none;

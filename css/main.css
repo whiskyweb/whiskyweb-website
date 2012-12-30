@@ -62,6 +62,9 @@ a:active {
 	min-height: 100%;
 }
 
+#top-nav select {
+    display: none;
+}
 
 #top-nav {
 	background: url(../img/grey_bg.png) repeat;
