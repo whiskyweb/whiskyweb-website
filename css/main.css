@@ -49,6 +49,13 @@ h3.extradark {
     filter: dropshadow(color=#333, offx=2, offy=3);
 }
 
+a,
+a:link,
+a:visited,
+a:active {
+    color: #a55b00;
+}
+
 #wrapper {
 	margin: 0 auto;
 	height: 100%;
@@ -159,7 +166,7 @@ div.triangle {
 }
 
 #sponsors {
-	height: 380px;
+	height: 420px;
 	background: url(../img/castle.png) no-repeat center;
 }
 

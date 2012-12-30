@@ -20,14 +20,14 @@ h1 {
 h2 {
 	margin: 4px auto;
     text-align: center;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	color: #b06712;
 }
 
 h3 {
     margin: 6px auto;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.4em;
 }
 
 h3.light {
@@ -47,6 +47,13 @@ h3.extradark {
     color: #fffff4;
     text-shadow: 2px 3px 1px #333;
     filter: dropshadow(color=#333, offx=2, offy=3);
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #a55b00;
 }
 
 #wrapper {
@@ -363,4 +370,44 @@ footer ul li:last-child {
     border-radius: 5px;
     width: 128px;
     height: 128px;
+}
+
+
+form#contact_form {
+    width: 200px;
+    margin: 0 auto;
+}
+
+form#contact_form ul {
+    list-style-type: none;
+}
+
+form#contact_form li.formfield label {
+    margin-top: 10px;
+	color: #a55b00;
+    font-size: 1.4em;    
+    font-weight: bold;
+}
+
+form#contact_form li.formfield input {
+    width: 200px;
+	border: 3px solid #a55b00;
+}
+
+form#contact_form li.formfield textarea {
+	border: 3px solid #a55b00;
+    width: 200px;
+    resize: both;
+}
+
+form#contact_form li.formfield select {
+    width: 200px;
+}
+
+form#contact_form li.formbuttons input {
+	background: #a55b00;
+	border: 1px solid #a55b00;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
 }
