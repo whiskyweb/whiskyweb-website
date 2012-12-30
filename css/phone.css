@@ -358,6 +358,11 @@ footer ul li:last-child {
     font-size: 1em;
 }
 
+#team ul {
+    margin: 0;
+    padding: 0;
+}
+
 #team li {
 	display: inline-block;
     list-style-type: none;
