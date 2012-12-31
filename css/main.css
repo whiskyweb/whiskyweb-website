@@ -169,15 +169,18 @@ div.triangle {
 }
 
 #sponsors {
+    position: relative;
 	height: 420px;
 	background: url(../img/castle.png) no-repeat center;
 }
 
 #sponsors .become-a-sponsor {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -100px;
     display: block;
     width: 200px;
-    margin: 0 auto;
-    margin-top: 60px;
     text-transform: uppercase;
     padding: 17px;
     background-color: #6b4612;

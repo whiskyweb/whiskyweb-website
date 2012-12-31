@@ -170,15 +170,17 @@ div.triangle {
 }
 
 #sponsors {
+    position: relative;
 	height: 160px;
 	background: none;
 }
 
 #sponsors .become-a-sponsor {
     display: block;
+    position: absolute;
+    bottom: 5px;
     width: 200px;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin-left: -100px;
     text-transform: uppercase;
     padding: 7px;
     background-color: #6b4612;
