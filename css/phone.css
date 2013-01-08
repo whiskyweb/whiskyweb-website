@@ -144,6 +144,14 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 	font-size: 1em;
 }
 
+div#intro-text #intro-wrapper {
+	width: 100%;
+}
+
+div#intro-text h1, div#intro-text h2 {
+	text-align: center;
+}
+
 #intro-text {
     padding-top: 0;
     margin-top: 0;
