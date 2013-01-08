@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300" type="text/css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
 </head>
-<body id="page-schedule">
+<body id="page{% if page.title %}-{{ page.title | downcase }}{% endif %}">
     <div id="wrapper" class="clearfix container">
         <nav id="top-nav">
             <ul class="clearfix">

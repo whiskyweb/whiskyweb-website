@@ -103,7 +103,7 @@ a:active {
     text-decoration: none;
 }
 
-body#page-index #top-nav li#index-link a,
+body#page #top-nav li#index-link a,
 body#page-schedule #top-nav li#schedule-link a,
 body#page-sponsors #top-nav li#sponsors-link a,
 body#page-tickets #top-nav li#tickets-link a,
