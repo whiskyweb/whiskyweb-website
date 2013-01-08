@@ -152,12 +152,14 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 
 #intro-text #intro-wrapper {
     float: right;
-    width: 70%;
+    width: 65%;
 }
 
 #intro-text #whisky-glass {
     width: 27%;
     float: left;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 #get-involved,
@@ -401,7 +403,7 @@ form#contact_form ul {
 form#contact_form li.formfield label {
     margin-top: 10px;
 	color: #a55b00;
-    font-size: 1.4em;    
+    font-size: 1.4em;
     font-weight: bold;
 }
 
