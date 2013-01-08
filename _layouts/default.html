@@ -1,0 +1,93 @@
+---
+---
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Whisky Web II{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <meta name="description" content="Whisky Web II, Edinburgh's Web Conference">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/h5bp.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="only screen" />
+    <link rel="stylesheet" href="css/phone.css" type="text/css" media="only screen and (max-width: 767px), only screen and (max-device-width: 767px)" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300" type="text/css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+</head>
+<body id="page-schedule">
+    <div id="wrapper" class="clearfix container">
+        <nav id="top-nav">
+            <ul class="clearfix">
+                <li id="index-link"><a href="index.html" title="Home">Home</a></li>
+                <li id="schedule-link"><a href="schedule.html" title="Schedule">Schedule</a></li>
+                <li id="sponsors-link" class="gutter_right"><a href="sponsors.html" title="Sponsors">Sponsors</a></li>
+                <li id="tickets-link" class="gutter_left"><a href="tickets.html" title="Tickets">Tickets</a></li>
+                <li id="team-link"><a href="team.html" title="Team">Team</a></li>
+                <li id="contact-link"><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        {{ content }}
+
+        <footer class="medium-bg clearfix">
+            <span class="copyright">&copy; 2012 Whisky Web. All right reserved.</span>
+            <ul class="clearfix hidden-phone">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="schedule.html" title="Schedule">Schedule</a></li>
+                <li><a href="sponsors.html" title="Sponsors">Sponsors</a></li>
+                <li><a href="tickets.html" title="Tickets">Tickets</a></li>
+                <li><a href="team.html" title="Team">Team</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    <script>
+        $(function() {
+            $("<select />").appendTo("nav");
+
+            $("<option />", {
+                "selected": "selected",
+                "value": "",
+                "text": "Go to..."
+            }).appendTo("nav select");
+
+            $("nav a").each(function() {
+                var el = $(this);
+                $("<option />", {
+                    "value"   : el.attr("href"),
+                    "text"    : el.text()
+                }).appendTo("nav select");
+            });
+
+            $("nav select").change(function() {
+            window.location = $(this).find("option:selected").val();
+            });
+        });
+    </script>
+</body>
+</html>
