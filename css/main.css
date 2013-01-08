@@ -116,11 +116,6 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 	color: #fff;
 }
 
-#whisky-glass img {
-	display: block;
-	margin: 0 auto;
-}
-
 .light-bg {
 	text-align: center;
 	color: #7f7f7f;
@@ -144,9 +139,25 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 }
 
 #intro-text {
+    width: 100%;
     padding-top: 20px;
     margin-top: 20px;
-    background: url(../img/hexes_grey.png) no-repeat top center;
+    text-align: left;
+}
+
+#intro-text h1,
+#intro-text h2 {
+    text-align: left;
+}
+
+#intro-text #intro-wrapper {
+    float: right;
+    width: 70%;
+}
+
+#intro-text #whisky-glass {
+    width: 27%;
+    float: left;
 }
 
 #get-involved,
@@ -158,7 +169,6 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 #get-involved p {
     margin-top: 20px;
     padding-top: 20px;
-    background: url(../img/hexes_yellow.png) no-repeat top center;
 }
 
 div.triangle {
