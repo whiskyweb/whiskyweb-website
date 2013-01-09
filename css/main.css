@@ -183,7 +183,7 @@ div.triangle {
 #sponsors {
     position: relative;
 	height: 420px;
-	background: url(../img/castle.png) no-repeat center;
+	background: url(../img/castle.png) no-repeat center bottom;
 }
 
 #sponsors .become-a-sponsor {
