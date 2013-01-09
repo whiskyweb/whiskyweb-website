@@ -246,6 +246,15 @@ div.triangle {
     border: 1px solid #fff;
 }
 
+#schedule table {
+	font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #e2961c;
+    margin-bottom: 30px;
+}
+
 #current-sponsors table thead tr th {
     text-align: left;
 	background: #a55b00;
@@ -254,7 +263,22 @@ div.triangle {
     border: 1px solid #fff;
 }
 
+#schedule table thead tr th {
+    text-align: left;
+	background: #e2961c;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #e2961c;
+}
+
 #current-sponsors table tbody tr td {
+	color: #a55b00;
+    background: #fff;
+    border: 1px solid #e2961c;
+    padding: 10px;
+}
+
+#schedule table tbody tr td {
 	color: #a55b00;
     background: #fff;
     border: 1px solid #e2961c;
