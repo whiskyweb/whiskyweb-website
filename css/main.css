@@ -138,10 +138,15 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 	font-size: 1.8em;
 }
 
+#main {
+    background: url(../img/castle.png) no-repeat center bottom;
+}
+
 #intro-text {
     width: 100%;
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     text-align: left;
 }
 
@@ -150,9 +155,19 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
     text-align: left;
 }
 
+#intro-text h1 {
+    font-size: 5em;
+}
+
+#intro-text h2 {
+    margin-bottom: 40px;
+}
+
 #intro-text #intro-wrapper {
     float: right;
     width: 65%;
+    color: #000000;
+    text-shadow: 0 1px 5px white;
 }
 
 #intro-text #whisky-glass {
@@ -183,7 +198,6 @@ div.triangle {
 #sponsors {
     position: relative;
 	height: 420px;
-	background: url(../img/castle.png) no-repeat center bottom;
 }
 
 #sponsors .become-a-sponsor {
