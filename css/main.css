@@ -30,6 +30,12 @@ h3 {
 	font-size: 2.4em;
 }
 
+h1.light {
+	color: #fffff4;
+	text-shadow: 1px 3px 2px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+}
+
 h3.light {
 	color: #fffff4;
 	text-shadow: 1px 3px 2px #a55b00;
@@ -185,7 +191,8 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 }
 
 #get-involved,
-#current-sponsors {
+#current-sponsors,
+#schedule {
 	padding: 12px;
 	margin-top: 0;
 }
@@ -245,7 +252,8 @@ div.triangle {
     margin: 0 10px;
 }
 
-#current-sponsors table {
+#current-sponsors table,
+#schedule table {
 	font-family: Helvetica, Arial, sans-serif;
     width: 100%;
     margin: 0 auto;
@@ -253,16 +261,13 @@ div.triangle {
     border: 1px solid #fff;
 }
 
-#schedule table {
-	font-family: Helvetica, Arial, sans-serif;
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;
-    border: 1px solid #e2961c;
+#schedule {
     margin-bottom: 30px;
 }
 
-#current-sponsors table thead tr th {
+
+#current-sponsors table thead tr th,
+#schedule table thead tr th {
     text-align: left;
 	background: #a55b00;
     color: #fff;
@@ -271,20 +276,10 @@ div.triangle {
 }
 
 #schedule table thead tr th {
-    text-align: left;
-	background: #e2961c;
-    color: #fff;
-    font-weight: bold;
-    border: 1px solid #e2961c;
+    text-align: center;
 }
 
-#current-sponsors table tbody tr td {
-	color: #a55b00;
-    background: #fff;
-    border: 1px solid #e2961c;
-    padding: 10px;
-}
-
+#current-sponsors table tbody tr td,
 #schedule table tbody tr td {
 	color: #a55b00;
     background: #fff;
@@ -292,15 +287,18 @@ div.triangle {
     padding: 10px;
 }
 
-#current-sponsors table tbody tr td:first-child {
+#current-sponsors table tbody tr td:first-child,
+#schedule table tbody tr td:first-child {
     border-left: 1px solid #fff;
 }
 
-#current-sponsors table tbody tr td:last-child {
+#current-sponsors table tbody tr td:last-child,
+#scedule table tbody tr td:last-child {
     border-right: 1px solid #fff;
 }
 
-#current-sponsors table tbody tr td.table-na {
+#current-sponsors table tbody tr td.table-na,
+#schedule table tbody tr td.table-na {
 	background: #a55b00;
 }
 
