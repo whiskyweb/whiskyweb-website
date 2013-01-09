@@ -69,6 +69,13 @@ a:active {
 #top-nav {
 	background: url(../img/grey_bg.png) repeat;
     text-align: center;
+	position: relative;
+}
+
+#top-nav .fb-like {
+	position: absolute;
+	top: 9px;
+	right: 30px;
 }
 
 #top-nav ul {
