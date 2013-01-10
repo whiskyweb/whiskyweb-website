@@ -144,12 +144,32 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 	font-size: 1em;
 }
 
-div#intro-text #intro-wrapper {
-	width: 100%;
+#main {
+    padding: 0;
+    background: url(../img/castle.png) no-repeat center bottom;
 }
 
-div#intro-text h1, div#intro-text h2 {
-	text-align: center;
+#intro-text #intro-wrapper {
+    float: none;
+    width: 70%;
+    color: #000000;
+    text-shadow: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div #intro-text {
+    text-align: center;
+}
+
+div#intro-text h1 {
+    padding-top: 20px;
+    font-size: 3em;
+    text-align: center;
+}
+
+div#intro-text h2 {
+    text-align: center;
 }
 
 #intro-text {
