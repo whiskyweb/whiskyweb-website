@@ -78,12 +78,6 @@ a:active {
 	position: relative;
 }
 
-#top-nav .fb-like {
-	position: absolute;
-	top: 9px;
-	right: 30px;
-}
-
 #top-nav ul {
     min-height: 80px;
     background: url(../img/shark.png) no-repeat center center;
@@ -152,6 +146,9 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 }
 
 #main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
     background: url(../img/castle.png) no-repeat center bottom;
 }
 
@@ -235,7 +232,7 @@ div.triangle {
 }
 
 #get-in-touch {
-    padding: 10px;
+    padding: 10px; 
 }
 
 #get-in-touch p {
@@ -244,12 +241,20 @@ div.triangle {
 
 #get-in-touch .images {
     text-align: center;
-    margin: 12px auto 0 auto;
+    margin: 0;
 }
 
 #get-in-touch .images a {
     display: inlne;
     margin: 0 10px;
+}
+
+#get-in-touch h3.extradark {
+    padding-top: 0px;
+    color: #fffff4;
+    text-shadow: 2px 3px 1px #333;
+    filter: dropshadow(color=#333, offx=2, offy=3);
+    font-size: 2em;
 }
 
 #current-sponsors table,
@@ -300,6 +305,10 @@ div.triangle {
 #current-sponsors table tbody tr td.table-na,
 #schedule table tbody tr td.table-na {
 	background: #a55b00;
+}
+
+#schedule table tbody tr td.time {
+    width: 10%;
 }
 
 p.tier-title {
