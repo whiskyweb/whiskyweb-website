@@ -97,6 +97,10 @@ a:active {
     padding-left: 30px;
 }
 
+#top-nav li:last-child {
+    margin-right: 50px;
+}
+
 #top-nav li a {
 	color: #fff;
 	font-size: 1.4em;
