@@ -193,7 +193,8 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 
 #get-involved,
 #current-sponsors,
-#schedule {
+#schedule,
+#tweets {
 	padding: 12px;
 	margin-top: 0;
 }
@@ -236,7 +237,7 @@ div.triangle {
 }
 
 #get-in-touch {
-    padding: 10px; 
+    padding: 10px;
 }
 
 #get-in-touch p {
@@ -270,7 +271,8 @@ div.triangle {
     border: 1px solid #fff;
 }
 
-#schedule {
+#schedule,
+#tweets {
     margin-bottom: 30px;
 }
 
@@ -516,17 +518,19 @@ div#shark {
     margin-bottom: 20px;
 }
 
-div.tweets {
+div#tweets {
     margin 10px 0;
 }
 
-div.tweets ul li {
+div#tweets ul li {
     text-align: left;
     list-style: none;
     font-style: italic;
+    line-height: 1.4em;
+    font-size: 1.4em;
 }
 
 span.twitter_handle {
     font-weight: bold;
-	color: #e2961c;
+	color: #a55b00;
 }
