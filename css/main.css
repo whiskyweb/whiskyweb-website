@@ -515,3 +515,18 @@ div#shark {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+div.tweets {
+    margin 10px 0;
+}
+
+div.tweets ul li {
+    text-align: left;
+    list-style: none;
+    font-style: italic;
+}
+
+span.twitter_handle {
+    font-weight: bold;
+	color: #e2961c;
+}
