@@ -534,3 +534,13 @@ span.twitter_handle {
     font-weight: bold;
 	color: #a55b00;
 }
+
+dl#prices dt{
+    font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+dl#prices dd{
+    font-size: 1.6em;
+	line-height: 1.3em;
+}
