@@ -486,3 +486,7 @@ dl#prices dd {
     font-size: 1em;
 	line-height: 1.3em;
 }
+
+div#airthphotos {
+    display: none;
+}
