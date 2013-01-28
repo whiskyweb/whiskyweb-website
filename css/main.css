@@ -534,3 +534,39 @@ span.twitter_handle {
     font-weight: bold;
 	color: #a55b00;
 }
+
+dl#prices dt{
+    font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+dl#prices dd{
+    font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+div#airthphotos {
+    margin: 0 auto;
+    width: 800px;
+}
+
+div#airthphotos div {
+    border: 3px solid #7f7f7f;
+    width: 310px;
+    height: 210px;
+    /*display: inline-block;*/
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    background: #eaeaea;
+}
+
+div#airthphotos div img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}

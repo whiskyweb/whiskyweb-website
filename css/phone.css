@@ -476,3 +476,17 @@ dl#faq dd {
     margin-left: 20px;
     margin-bottom: 30px;
 }
+
+dl#prices dt { 
+    font-size: 1em;
+	line-height: 1em;
+}
+
+dl#prices dd {
+    font-size: 1em;
+	line-height: 1.3em;
+}
+
+div#airthphotos {
+    display: none;
+}
