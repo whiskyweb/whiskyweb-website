@@ -80,7 +80,7 @@ a:active {
 
 #top-nav ul {
     min-height: 80px;
-    background: url(../img/shark.png) no-repeat center center;
+    background: url(../img/shark.png) no-repeat 99% 50%;
 	list-style-type: none;
 	margin: 0 auto;
 }
@@ -98,7 +98,7 @@ a:active {
 }
 
 #top-nav li:last-child {
-    margin-right: 50px;
+    /*margin-right: 50px;*/
 }
 
 #top-nav li a {
@@ -569,4 +569,52 @@ div#airthphotos div img {
 
 .clear {
     clear: both;
+}
+
+div.speaker-left img {
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+div.speaker {
+    padding: 20px;
+}
+
+div.speaker p {
+    text-align: justify;
+}
+
+div.last {
+    margin-bottom: 20px;
+}
+
+div.speaker-left div.abstract h2 {
+    margin-top: 20px;
+    margin-right: 240px;
+}
+
+div.speaker-right {
+	background: url(../img/yellow_bg.png) repeat;
+    color: #fffff4;
+}
+
+div.speaker-right img {
+    width: 240px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+div.speaker-right div.abstract h2 {
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+div.speaker-right h1, 
+div.speaker-right h2 {
+	color: #fffff4;
+	text-shadow: 1px 3px 2px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
