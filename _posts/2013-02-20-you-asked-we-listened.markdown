@@ -4,4 +4,3 @@ layout: post
 title: You Asked, We Answered
 author: Max Manders
 ---
-Lorem ipsum dolor sit amet
