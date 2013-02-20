@@ -120,7 +120,8 @@ body#page-sponsors #top-nav li#sponsors-link a,
 body#page-speakers #top-nav li#speakers-link a,
 body#page-tickets #top-nav li#tickets-link a,
 body#page-team #top-nav li#team-link a,
-body#page-faq #top-nav li#faq-link a {
+body#page-faq #top-nav li#faq-link a, 
+body#page-blog #top-nav li#blog-link a {
 	color: #e2961c;
 }
 
@@ -614,4 +615,27 @@ div.speaker-right h2 {
 	color: #fffff4;
 	text-shadow: 1px 3px 2px #a55b00;
 	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+}
+
+div.post h3.post-title {
+    margin: 30px auto;
+    text-align: center;
+	font-size: 4.0em;
+	color: #e2961c;
+}
+
+div.post h3.post-title a {
+	color: #e2961c;
+	text-shadow: 1px 3px 2px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=0);
+}
+
+div.post div.post-date abbr.published-on {
+    font-size: 1.3em;
+    text-align: center;
+    display: block;
+}
+
+div.post-content {
+    margin-bottom: 20px;
 }
