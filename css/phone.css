@@ -534,3 +534,17 @@ div.speaker-right h2 {
 	text-shadow: 1px 3px 2px #a55b00;
 	filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
+
+div.post h3.post-title {
+    margin: 30px auto;
+    text-align: center;
+	font-size: 2.0em;
+	color: #e2961c;
+}
+
+div.post h3.post-title a {
+	color: #e2961c;
+	text-shadow: none;
+	filter:;
+}
+

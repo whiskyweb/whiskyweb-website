@@ -639,3 +639,11 @@ div.post div.post-date abbr.published-on {
 div.post-content {
     margin-bottom: 20px;
 }
+
+div.post-content p {
+    text-align: justify;
+}
+
+div.post a.more {
+    font-size: 1.2em;
+}
