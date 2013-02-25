@@ -590,7 +590,7 @@ div.last {
 
 div.speaker-left div.abstract h2 {
     margin-top: 20px;
-    margin-right: 240px;
+    margin-right: 150px;
 }
 
 div.speaker-right {
@@ -606,8 +606,7 @@ div.speaker-right img {
 }
 
 div.speaker-right div.abstract h2 {
-    margin-top: 20px;
-    margin-left: 240px;
+	margin: 20px 0 20px 150px;
 }
 
 div.speaker-right h1, 
