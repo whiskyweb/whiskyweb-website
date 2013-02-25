@@ -568,52 +568,45 @@ div#airthphotos div img {
     clear: both;
 }
 
-div.speaker-left img {
-    width: 240px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    float: left;
-}
-
-div.speaker {
+.speaker {
     padding: 20px;
+	position: relative;
 }
 
-div.speaker p {
-    text-align: justify;
+.speaker.yellow {
+	background: url(../img/yellow_bg.png) repeat;
+    color: #fffff4;
 }
 
-div.last {
-    margin-bottom: 20px;
+.speaker.yellow h1,
+.speaker.yellow h2 {
+	color: #fffff4;
+	text-shadow: 1px 3px 2px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
 
-div.speaker-left div.abstract h2 {
+.speaker img {
+	width: 240px;
+	margin: 12px 0 12px 12px;
+	float: right;
+}
+
+.speakers .speaker:last-child {
+	margin-bottom: 20px;
+}
+
+.speaker p {
+    line-height: 1.2em;
+}
+
+.speaker h1 {
+	text-align: left;
+	margin-top: 1%;
+}
+
+.speaker h2 {
+	font-size: 2.0em;
+	text-align: left;
     margin: 20px auto;
 	line-height: 1.2em;
-	width: 100%;
-}
-
-div.speaker-right {
-    background: url(../img/yellow_bg.png) repeat;
-    color: #fffff4;
-}
-
-div.speaker-right img {
-    width: 240px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    float: right;
-}
-
-div.speaker-right div.abstract h2 {
-	margin: 20px auto;
-	line-height: 1.2em;
-	width: 100%;
-}
-
-div.speaker-right h1, 
-div.speaker-right h2 {
-    color: #fffff4;
-    text-shadow: 1px 3px 2px #a55b00;
-    filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
