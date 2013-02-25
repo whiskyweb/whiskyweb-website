@@ -25,7 +25,7 @@ rooms available, so some of the tickets are for shared accommodation for the nig
 Unfortunately a number of people have expressed concern that this arrangement is unfairly
 excluding those who live locally in Edinburgh, Glasgow and the surrounding areas.  We
 understand that it might be seen that we are only catering to those who are travelling
-form a far, and ignoring those who may want to attend the conference but not the party,
+from afar, and ignoring those who may want to attend the conference but not the party,
 and instead make their own arrangements to travel home or to an alternative hotel.  This
 certainly wasn't our intention.  Indeed, the same argument could be made wherever we chose
 to host the conference, were we to insist on including accommodation in the ticket cost.
