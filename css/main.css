@@ -570,29 +570,29 @@ div#airthphotos div img {
 
 .speaker {
     padding: 20px;
-	position: relative;
+    position: relative;
 }
 
 .speaker.yellow {
-	background: url(../img/yellow_bg.png) repeat;
+    background: url(../img/yellow_bg.png) repeat;
     color: #fffff4;
 }
 
 .speaker.yellow h1,
 .speaker.yellow h2 {
-	color: #fffff4;
-	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+    color: #fffff4;
+    text-shadow: 1px 3px 2px #a55b00;
+    filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
 
 .speaker img {
-	width: 240px;
-	margin: 12px 0 12px 12px;
-	float: right;
+    width: 240px;
+    margin: 12px 0 12px 12px;
+    float: right;
 }
 
 .speakers .speaker:last-child {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .speaker p {
@@ -600,13 +600,13 @@ div#airthphotos div img {
 }
 
 .speaker h1 {
-	text-align: left;
-	margin-top: 1%;
+    text-align: left;
+    margin-top: 1%;
 }
 
 .speaker h2 {
-	font-size: 2.0em;
-	text-align: left;
+    font-size: 2.0em;
+    text-align: left;
     margin: 20px auto;
-	line-height: 1.2em;
+    line-height: 1.2em;
 }
