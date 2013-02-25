@@ -1,5 +1,5 @@
 --- 
-date: 2013-02-20
+date: 2013-02-25
 layout: post
 title: You Asked, We Answered
 author: Max Manders
@@ -32,7 +32,7 @@ to host the conference, were we to insist on including accommodation in the tick
 
 We're sorry if we've excluded you, we didn't mean to.  Our only intention was to organise
 an everything-included residential experience.  We have however listened to your concerns,
-and are offering a new ticket costing &pound;??? which will give you access to the
+and are offering a new ticket costing &pound;125 which will give you access to the
 conference without accommodation.  This ticket includes travel to, and from Edinburgh on
 the Friday and Saturday, and of course we'd be delighted if these ticket holders can make
 it to the after-party, although understand that they may chose not to due to alternative

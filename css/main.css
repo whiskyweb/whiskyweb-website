@@ -538,7 +538,8 @@ dl#prices dt{
 	line-height: 1.3em;
 }
 
-dl#prices dd{
+dl#prices dd {
+    font-style: italic;
     font-size: 1.6em;
 	line-height: 1.3em;
 }
