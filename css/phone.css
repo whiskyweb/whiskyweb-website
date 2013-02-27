@@ -490,3 +490,61 @@ dl#prices dd {
 div#airthphotos {
     display: none;
 }
+
+div.speaker-left img {
+}
+
+div.speaker {
+    padding: 20px;
+}
+
+div.speaker p {
+    text-align: justify;
+}
+
+div.last {
+    margin-bottom: 20px;
+}
+
+div.speaker-left div.abstract h2 {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+div.speaker-right {
+	background: url(../img/yellow_bg.png) repeat;
+    color: #fffff4;
+}
+
+div.speaker-right img {
+    width: 240px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+div.speaker-right div.abstract h2 {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+div.speaker-right h1, 
+div.speaker-right h2 {
+	color: #fffff4;
+	text-shadow: 1px 3px 2px #a55b00;
+	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+}
+
+div.post h3.post-title {
+    margin: 30px auto;
+    text-align: center;
+	font-size: 2.0em;
+	color: #e2961c;
+}
+
+div.post h3.post-title a {
+	color: #e2961c;
+	text-shadow: none;
+	filter:;
+}
+

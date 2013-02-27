@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h3 class="post-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
+  <div class="post-date"><abbr class="published-on">{{ page.date | date: "%B %d, %Y" }}</abbr></div>
+  <div class="post-content">
+    <p>{{ content }}</p>
+  </div>
+</div>
+
+<div class="nav-pagination"> 
+{% if paginator.next_page %}
+  <div class="page-previous"><a href="/page{{ paginator.next_page }}">&laquo; Older</a></div>
+{% else %}
+  <div class="page-previous"></div>
+{% endif %}
+{% if paginator.previous_page == 1 %}
+  <div class="page-next"><a href="/">Newer &raquo;</a></div>
+{% elsif paginator.previous_page %}
+  <div class="page-next"><a href="/page{{ paginator.previous_page }}">Newer &raquo;</a></div>
+{% else %}
+  <div class="page-next"></div>
+{% endif %}
+</div>
