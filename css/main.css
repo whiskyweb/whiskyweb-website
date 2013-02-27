@@ -364,16 +364,23 @@ div.badge-logo {
     height: 70px;
 }
 
-div#previous-sponsors {
+div.badge-logo img {
+    height: 70px;
+}
+
+div#previous-sponsors,
+div#our-sponsors {
     height: 400px;
 }
 
-div#previous-sponsors p {
+div#previous-sponsors p,
+div#our-sponsors p {
     padding: 10px;
     margin: 0 auto;
 }
 
 div#previous-sponsors ul,
+div#our-sponsors ul,
 div#sponsors ul {
     text-align: left;
     display: block;
@@ -382,6 +389,7 @@ div#sponsors ul {
 }
 
 div#previous-sponsors ul li,
+div#our-sponsors ul li,
 div#sponsors ul li {
     display: inline-block;
     margin-left: 30px;
@@ -641,4 +649,10 @@ div.post a.more {
     text-align: left;
     margin: 20px auto;
     line-height: 1.2em;
+}
+
+#our-sponsors h4 {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: bold;
 }
