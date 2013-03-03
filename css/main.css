@@ -265,7 +265,6 @@ div.triangle {
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    border: 1px solid #fff;
 }
 
 #schedule,
@@ -311,7 +310,23 @@ div.triangle {
 }
 
 #schedule table tbody tr td.time {
+    background: #a55b00;
+    color: #fff;
+    font-weight: bold;
     width: 10%;
+    border-left: #a55b00;
+}
+
+#schedule table tbody tr td.stripe {
+    background: #f5deb3;
+}
+
+#schedule table tbody tr td.bthick {
+    border-bottom: 3px solid #a55b00;
+}
+
+#schedule table tbody tr td.tthick {
+    border-top: 3px solid #a55b00;
 }
 
 p.tier-title {
