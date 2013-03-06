@@ -329,6 +329,10 @@ div.triangle {
     border-top: 3px solid #a55b00;
 }
 
+#schedule a {
+    text-decoration: underline;
+}
+
 p.tier-title {
     margin: 10px;
     font-size: 1.0em;
