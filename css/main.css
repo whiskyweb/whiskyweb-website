@@ -622,6 +622,10 @@ div#airthphotos div img {
     float: right;
 }
 
+.speakers .speaker:first-child {
+    margin-top: 20px;
+}
+
 .speakers .speaker:last-child {
     margin-bottom: 20px;
 }
