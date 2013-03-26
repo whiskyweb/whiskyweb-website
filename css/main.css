@@ -1,51 +1,51 @@
 body {
-	font-family: 'Open Sans', Arial;
-	line-height: 1.1em;
+    font-family: 'Open Sans', Arial;
+    line-height: 1.1em;
     background: url(../img/light_bg.png) repeat;
 }
 
 h1, h2, h3 {
-	font-family: Oswald, Arial;
+    font-family: Oswald, Arial;
 }
 
 h1 {
     margin: 30px auto;
     text-align: center;
-	font-size: 4.0em;
-	color: #e2961c;
-	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=0);
+    font-size: 4.0em;
+    color: #e2961c;
+    text-shadow: 1px 3px 2px #a55b00;
+    filter: dropshadow(color=#a55b00, offx=1, offy=0);
 }
 
 h2 {
-	margin: 12px auto;
+    margin: 12px auto;
     text-align: center;
-	font-size: 3.0em;
-	color: #b06712;
+    font-size: 3.0em;
+    color: #b06712;
 }
 
 h3 {
     margin: 6px auto;
-	text-align: center;
-	font-size: 2.4em;
+    text-align: center;
+    font-size: 2.4em;
 }
 
 h1.light {
-	color: #fffff4;
-	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+    color: #fffff4;
+    text-shadow: 1px 3px 2px #a55b00;
+    filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
 
 h3.light {
-	color: #fffff4;
-	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+    color: #fffff4;
+    text-shadow: 1px 3px 2px #a55b00;
+    filter: dropshadow(color=#a55b00, offx=1, offy=3);
 }
 
 h3.dark {
-	color: #4a4a4a;
-	text-shadow: 2px 3px 1px #C3C3C3;
-	filter: dropshadow(color=#C3C3C3, offx=2, offy=3);
+    color: #4a4a4a;
+    text-shadow: 2px 3px 1px #C3C3C3;
+    filter: dropshadow(color=#C3C3C3, offx=2, offy=3);
 }
 
 h3.extradark {
@@ -63,9 +63,9 @@ a:active {
 }
 
 #wrapper {
-	margin: 0 auto;
-	height: 100%;
-	min-height: 100%;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100%;
 }
 
 #top-nav select {
@@ -73,16 +73,16 @@ a:active {
 }
 
 #top-nav {
-	background: url(../img/grey_bg.png) repeat;
+    background: url(../img/grey_bg.png) repeat;
     text-align: center;
-	position: relative;
+    position: relative;
 }
 
 #top-nav ul {
     min-height: 80px;
     background: url(../img/shark.png) no-repeat 99% 50%;
-	list-style-type: none;
-	margin: 0 auto;
+    list-style-type: none;
+    margin: 0 auto;
 }
 
 #top-nav li {
@@ -102,11 +102,11 @@ a:active {
 }
 
 #top-nav li a {
-	color: #fff;
-	font-size: 1.4em;
-	display: inline-block;
+    color: #fff;
+    font-size: 1.4em;
+    display: inline-block;
     padding: 20px 25px;
-	font-family: Oswald, Arial;
+    font-family: Oswald, Arial;
 }
 
 #top-nav li a:hover {
@@ -117,23 +117,20 @@ a:active {
 body#page #top-nav li#index-link a,
 body#page-schedule #top-nav li#schedule-link a,
 body#page-sponsors #top-nav li#sponsors-link a,
+body#page-speakers #top-nav li#speakers-link a,
 body#page-tickets #top-nav li#tickets-link a,
 body#page-team #top-nav li#team-link a,
 body#page-faq #top-nav li#faq-link a {
-	color: #e2961c;
-}
-
-body#page-sponsors #top-nav li#sponsors-link a:hover {
-	color: #fff;
+    color: #e2961c;
 }
 
 .light-bg {
-	text-align: center;
-	color: #7f7f7f;
+    text-align: center;
+    color: #7f7f7f;
 }
 
 .medium-bg {
-	background: url(../img/yellow_bg.png) repeat;
+    background: url(../img/yellow_bg.png) repeat;
     text-align: center;
     color: #fffff4;
 }
@@ -141,12 +138,12 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 .dark-bg {
     background: url(../img/grey_bg.png) repeat;
     text-align: center;
-	color: #fffff4;
+    color: #fffff4;
 }
 
 .large-text {
-	line-height: 1.3em;
-	font-size: 1.8em;
+    line-height: 1.3em;
+    font-size: 1.8em;
 }
 
 #main {
@@ -195,8 +192,8 @@ body#page-sponsors #top-nav li#sponsors-link a:hover {
 #current-sponsors,
 #schedule,
 #tweets {
-	padding: 12px;
-	margin-top: 0;
+    padding: 12px;
+    margin-top: 0;
 }
 
 #get-involved p {
@@ -213,7 +210,7 @@ div.triangle {
 
 #sponsors {
     position: relative;
-	height: 420px;
+    padding-bottom: 70px;
 }
 
 #sponsors .become-a-sponsor {
@@ -264,11 +261,10 @@ div.triangle {
 
 #current-sponsors table,
 #schedule table {
-	font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    border: 1px solid #fff;
 }
 
 #schedule,
@@ -280,7 +276,7 @@ div.triangle {
 #current-sponsors table thead tr th,
 #schedule table thead tr th {
     text-align: left;
-	background: #a55b00;
+    background: #a55b00;
     color: #fff;
     font-weight: bold;
     border: 1px solid #fff;
@@ -292,7 +288,7 @@ div.triangle {
 
 #current-sponsors table tbody tr td,
 #schedule table tbody tr td {
-	color: #a55b00;
+    color: #a55b00;
     background: #fff;
     border: 1px solid #e2961c;
     padding: 10px;
@@ -310,11 +306,31 @@ div.triangle {
 
 #current-sponsors table tbody tr td.table-na,
 #schedule table tbody tr td.table-na {
-	background: #a55b00;
+    background: #a55b00;
 }
 
 #schedule table tbody tr td.time {
+    background: #a55b00;
+    color: #fff;
+    font-weight: bold;
     width: 10%;
+    border-left: #a55b00;
+}
+
+#schedule table tbody tr td.stripe {
+    background: #f5deb3;
+}
+
+#schedule table tbody tr td.bthick {
+    border-bottom: 3px solid #a55b00;
+}
+
+#schedule table tbody tr td.tthick {
+    border-top: 3px solid #a55b00;
+}
+
+#schedule a {
+    text-decoration: underline;
 }
 
 p.tier-title {
@@ -327,14 +343,14 @@ p.tier-title {
 p.tier-price {
     margin: 10px;
     font-size: 1.0em;
-	color: #e2961c;
+    color: #e2961c;
     font-weight: bold;
 }
 
 p.tier-qty {
     margin: 10px;
     font-size: 1.0em;
-	color: #fff;
+    color: #fff;
     font-style: italic;
 }
 
@@ -367,16 +383,26 @@ div.badge-logo {
     height: 70px;
 }
 
+div.badge-logo img {
+    height: 70px;
+}
+
 div#previous-sponsors {
     height: 400px;
 }
 
-div#previous-sponsors p {
+div#our-sponsors {
+    overflow: auto;
+}
+
+div#previous-sponsors p,
+div#our-sponsors p {
     padding: 10px;
     margin: 0 auto;
 }
 
 div#previous-sponsors ul,
+div#our-sponsors ul,
 div#sponsors ul {
     text-align: left;
     display: block;
@@ -385,15 +411,16 @@ div#sponsors ul {
 }
 
 div#previous-sponsors ul li,
+div#our-sponsors ul li,
 div#sponsors ul li {
     display: inline-block;
     margin-left: 30px;
 }
 
 span.copyright {
-	float: left;
-	font-size: 1.3em;
-	font-family: "Open Sans", Arial;
+    float: left;
+    font-size: 1.3em;
+    font-family: "Open Sans", Arial;
 }
 
 footer {
@@ -402,23 +429,23 @@ footer {
 }
 
 footer ul {
-	float: right;
-	list-style-type: none;
+    float: right;
+    list-style-type: none;
 }
 
 footer ul li {
-	margin-right: 12px;
-	float: left;
+    margin-right: 12px;
+    float: left;
 }
 
 footer ul li a {
-	color: #fffff4;
-	font-size: 1.2em;
-	font-family: "Open Sans", Arial;
+    color: #fffff4;
+    font-size: 1.2em;
+    font-family: "Open Sans", Arial;
 }
 
 footer ul li:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 #team {
@@ -436,7 +463,7 @@ footer ul li:last-child {
 }
 
 #team li {
-	display: inline-block;
+    display: inline-block;
     list-style-type: none;
     text-align: center;
 }
@@ -460,18 +487,18 @@ form#contact_form ul {
 
 form#contact_form li.formfield label {
     margin-top: 10px;
-	color: #a55b00;
+    color: #a55b00;
     font-size: 1.4em;
     font-weight: bold;
 }
 
 form#contact_form li.formfield input {
     width: 330px;
-	border: 3px solid #a55b00;
+    border: 3px solid #a55b00;
 }
 
 form#contact_form li.formfield textarea {
-	border: 3px solid #a55b00;
+    border: 3px solid #a55b00;
     width: 330px;
     resize: both;
 }
@@ -481,8 +508,8 @@ form#contact_form li.formfield select {
 }
 
 form#contact_form li.formbuttons input {
-	background: #a55b00;
-	border: 1px solid #a55b00;
+    background: #a55b00;
+    border: 1px solid #a55b00;
     color: #fff;
     padding: 10px;
     width: 100px;
@@ -519,7 +546,7 @@ div#shark {
 }
 
 div#tweets {
-    margin 10px 0;
+    margin: 10px 0;
 }
 
 div#tweets ul li {
@@ -532,17 +559,18 @@ div#tweets ul li {
 
 span.twitter_handle {
     font-weight: bold;
-	color: #a55b00;
+    color: #a55b00;
 }
 
 dl#prices dt{
     font-size: 1.6em;
-	line-height: 1.3em;
+    line-height: 1.3em;
 }
 
-dl#prices dd{
+dl#prices dd {
+    font-style: italic;
     font-size: 1.6em;
-	line-height: 1.3em;
+    line-height: 1.3em;
 }
 
 div#airthphotos {
@@ -571,50 +599,86 @@ div#airthphotos div img {
     clear: both;
 }
 
-div.speaker-left img {
-    width: 240px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    float: left;
-}
-
-div.speaker {
+.speaker {
     padding: 20px;
+    position: relative;
 }
 
-div.speaker p {
-    text-align: justify;
-}
-
-div.last {
-    margin-bottom: 20px;
-}
-
-div.speaker-left div.abstract h2 {
-    margin-top: 20px;
-    margin-right: 240px;
-}
-
-div.speaker-right {
-	background: url(../img/yellow_bg.png) repeat;
+.speaker.yellow {
+    background: url(../img/yellow_bg.png) repeat;
     color: #fffff4;
 }
 
-div.speaker-right img {
+.speaker.yellow h1,
+.speaker.yellow h2 {
+    color: #fffff4;
+    text-shadow: 1px 3px 2px #a55b00;
+    filter: dropshadow(color=#a55b00, offx=1, offy=3);
+}
+
+.speaker img {
     width: 240px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 12px 0 12px 12px;
     float: right;
 }
 
-div.speaker-right div.abstract h2 {
+.speakers .speaker:first-child {
     margin-top: 20px;
-    margin-left: 240px;
 }
 
-div.speaker-right h1, 
-div.speaker-right h2 {
-	color: #fffff4;
+.speakers .speaker:last-child {
+    margin-bottom: 20px;
+}
+
+.speaker p {
+    line-height: 1.2em;
+}
+
+div.post h3.post-title {
+    margin: 30px auto;
+    text-align: center;
+	font-size: 4.0em;
+	color: #e2961c;
+}
+
+div.post h3.post-title a {
+	color: #e2961c;
 	text-shadow: 1px 3px 2px #a55b00;
-	filter: dropshadow(color=#a55b00, offx=1, offy=3);
+	filter: dropshadow(color=#a55b00, offx=1, offy=0);
+}
+
+div.post div.post-date abbr.published-on {
+    font-size: 1.3em;
+    text-align: center;
+    display: block;
+}
+
+div.post-content {
+    margin-bottom: 20px;
+}
+
+div.post-content p {
+    text-align: justify;
+}
+
+div.post a.more {
+    font-size: 1.2em;
+}
+
+.speaker h1 {
+    text-align: left;
+    margin-top: 1%;
+}
+
+.speaker h2 {
+    font-size: 2.0em;
+    text-align: left;
+    margin: 20px auto;
+    line-height: 1.2em;
+}
+
+#our-sponsors h4 {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: bold;
 }

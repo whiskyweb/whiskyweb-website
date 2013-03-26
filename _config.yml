@@ -1,0 +1,6 @@
+pygments: true
+paginate: 5
+permalink: /blog/:year/:month/:day/:title
+markdown: rdiscount
+
+
