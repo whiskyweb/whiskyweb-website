@@ -527,10 +527,18 @@ dl#faq dt {
     margin-bottom: 10px;
 }
 
+dl#faq dl dt {
+    font-size: 1em;
+}
+
 dl#faq dt span {
     text-align: left;
     font-style: italic;
     font-size: 1.3em;
+}
+
+dl#faq dl dt span {
+    font-size: 1em;
 }
 
 dl#faq dd {
@@ -538,6 +546,10 @@ dl#faq dd {
     font-size: 1.4em;
     margin-left: 20px;
     margin-bottom: 30px;
+}
+
+dl#faq dl dd {
+    font-size: 0.7em;
 }
 
 div#shark {
