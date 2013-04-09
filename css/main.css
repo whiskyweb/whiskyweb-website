@@ -404,10 +404,11 @@ div#our-sponsors p {
 div#previous-sponsors ul,
 div#our-sponsors ul,
 div#sponsors ul {
-    text-align: left;
+    text-align: center;
     display: block;
     font-size: 1.4em;
     list-style-type: none;
+	margin-left: 0px;
 }
 
 div#previous-sponsors ul li,
@@ -415,6 +416,11 @@ div#our-sponsors ul li,
 div#sponsors ul li {
     display: inline-block;
     margin-left: 30px;
+	height: 150px;
+}
+
+div#previous-sponsors ul li {
+	height: 100px;
 }
 
 span.copyright {
@@ -691,6 +697,7 @@ div.post a.more {
 
 #our-sponsors h4 {
     margin-top: 1em;
+	margin-bottom: 1em;
     font-size: 2em;
     font-weight: bold;
 }
