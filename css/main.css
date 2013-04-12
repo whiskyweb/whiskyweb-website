@@ -404,10 +404,11 @@ div#our-sponsors p {
 div#previous-sponsors ul,
 div#our-sponsors ul,
 div#sponsors ul {
-    text-align: left;
+    text-align: center;
     display: block;
     font-size: 1.4em;
     list-style-type: none;
+	margin-left: 0px;
 }
 
 div#previous-sponsors ul li,
@@ -415,6 +416,11 @@ div#our-sponsors ul li,
 div#sponsors ul li {
     display: inline-block;
     margin-left: 30px;
+	height: 150px;
+}
+
+div#previous-sponsors ul li {
+	height: 100px;
 }
 
 span.copyright {
@@ -527,10 +533,18 @@ dl#faq dt {
     margin-bottom: 10px;
 }
 
+dl#faq dl dt {
+    font-size: 1em;
+}
+
 dl#faq dt span {
     text-align: left;
     font-style: italic;
     font-size: 1.3em;
+}
+
+dl#faq dl dt span {
+    font-size: 1em;
 }
 
 dl#faq dd {
@@ -538,6 +552,10 @@ dl#faq dd {
     font-size: 1.4em;
     margin-left: 20px;
     margin-bottom: 30px;
+}
+
+dl#faq dl dd {
+    font-size: 0.7em;
 }
 
 div#shark {
@@ -679,6 +697,7 @@ div.post a.more {
 
 #our-sponsors h4 {
     margin-top: 1em;
+	margin-bottom: 1em;
     font-size: 2em;
     font-weight: bold;
 }
